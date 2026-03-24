@@ -1,0 +1,17 @@
+[
+{"GeneralId":80001,"PosX":2,"PosY":0,"StageGroupId":0,"Flag":81,"NextIds":[2,3,4,5,6],"DailySweepCount":0,"SweepCostNums":[],"SweepRewardNums":[],"Id":1,"Name":null,"Disabled":false},
+{"GeneralId":80002,"PosX":0,"PosY":1,"StageGroupId":30001,"Flag":81,"NextIds":[],"DailySweepCount":3,"SweepCostNums":[25,2],"SweepRewardNums":[1,25,2,15000,10,2,911,1],"Id":2,"Name":null,"Disabled":false},
+{"GeneralId":80003,"PosX":1,"PosY":1,"StageGroupId":0,"Flag":81,"NextIds":[],"DailySweepCount":0,"SweepCostNums":[],"SweepRewardNums":[],"Id":3,"Name":null,"Disabled":false},
+{"GeneralId":80004,"PosX":2,"PosY":1,"StageGroupId":0,"Flag":81,"NextIds":[],"DailySweepCount":0,"SweepCostNums":[],"SweepRewardNums":[],"Id":4,"Name":null,"Disabled":false},
+{"GeneralId":80005,"PosX":3,"PosY":1,"StageGroupId":30002,"Flag":81,"NextIds":[7,8,9],"DailySweepCount":3,"SweepCostNums":[25,2],"SweepRewardNums":[1,25,2,15000,11,2,915,1],"Id":5,"Name":null,"Disabled":false},
+{"GeneralId":80006,"PosX":5,"PosY":1,"StageGroupId":30004,"Flag":81,"NextIds":[10],"DailySweepCount":3,"SweepCostNums":[25,2],"SweepRewardNums":[1,25,2,15000,19,2,912,1],"Id":6,"Name":null,"Disabled":false},
+{"GeneralId":80007,"PosX":2,"PosY":2,"StageGroupId":0,"Flag":81,"NextIds":[11],"DailySweepCount":0,"SweepCostNums":[],"SweepRewardNums":[],"Id":7,"Name":null,"Disabled":false},
+{"GeneralId":80008,"PosX":3,"PosY":2,"StageGroupId":30003,"Flag":103,"NextIds":[],"DailySweepCount":3,"SweepCostNums":[25,2],"SweepRewardNums":[1,25,2,15000,19,2,914,1],"Id":8,"Name":null,"Disabled":false},
+{"GeneralId":80009,"PosX":4,"PosY":2,"StageGroupId":0,"Flag":81,"NextIds":[],"DailySweepCount":0,"SweepCostNums":[],"SweepRewardNums":[],"Id":9,"Name":null,"Disabled":false},
+{"GeneralId":80010,"PosX":5,"PosY":2,"StageGroupId":30005,"Flag":83,"NextIds":[12,13],"DailySweepCount":3,"SweepCostNums":[25,2],"SweepRewardNums":[1,25,2,15000,120,1,913,1],"Id":10,"Name":null,"Disabled":false},
+{"GeneralId":80011,"PosX":2,"PosY":3,"StageGroupId":0,"Flag":381,"NextIds":[],"DailySweepCount":0,"SweepCostNums":[],"SweepRewardNums":[],"Id":11,"Name":null,"Disabled":false},
+{"GeneralId":80012,"PosX":5,"PosY":3,"StageGroupId":0,"Flag":83,"NextIds":[14],"DailySweepCount":0,"SweepCostNums":[],"SweepRewardNums":[],"Id":12,"Name":null,"Disabled":false},
+{"GeneralId":80013,"PosX":6,"PosY":3,"StageGroupId":0,"Flag":83,"NextIds":[15],"DailySweepCount":0,"SweepCostNums":[],"SweepRewardNums":[],"Id":13,"Name":null,"Disabled":false},
+{"GeneralId":80014,"PosX":5,"PosY":4,"StageGroupId":0,"Flag":83,"NextIds":[],"DailySweepCount":0,"SweepCostNums":[],"SweepRewardNums":[],"Id":14,"Name":null,"Disabled":false},
+{"GeneralId":80015,"PosX":6,"PosY":4,"StageGroupId":30006,"Flag":47,"NextIds":[],"DailySweepCount":3,"SweepCostNums":[25,2],"SweepRewardNums":[1,25,2,15000,21,280,916,1],"Id":15,"Name":null,"Disabled":false}
+]

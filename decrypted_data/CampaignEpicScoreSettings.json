@@ -1,0 +1,6 @@
+[
+{"Min":25000,"Max":50000,"Override":1.0,"Id":1,"Name":null,"Disabled":false},
+{"Min":50001,"Max":75000,"Override":1.1,"Id":2,"Name":null,"Disabled":false},
+{"Min":75001,"Max":110000,"Override":1.25,"Id":3,"Name":null,"Disabled":false},
+{"Min":110001,"Max":999999,"Override":1.5,"Id":4,"Name":null,"Disabled":false}
+]

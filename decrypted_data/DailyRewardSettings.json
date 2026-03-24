@@ -1,0 +1,17 @@
+[
+{"UpgradeId":2,"RewardNums":[2,30000,16,10],"Id":1,"Name":null,"Disabled":false},
+{"UpgradeId":3,"RewardNums":[1,250,62,30],"Id":2,"Name":null,"Disabled":false},
+{"UpgradeId":4,"RewardNums":[2,40000,18,10],"Id":3,"Name":null,"Disabled":false},
+{"UpgradeId":5,"RewardNums":[1,400,2400,10],"Id":4,"Name":null,"Disabled":false},
+{"UpgradeId":6,"RewardNums":[2,80000,3210,1],"Id":5,"Name":null,"Disabled":false},
+{"UpgradeId":7,"RewardNums":[1,500,20,10],"Id":6,"Name":null,"Disabled":false},
+{"UpgradeId":8,"RewardNums":[2,120000,3,182],"Id":7,"Name":null,"Disabled":false},
+{"UpgradeId":9,"RewardNums":[17,15,23,20],"Id":8,"Name":null,"Disabled":false},
+{"UpgradeId":10,"RewardNums":[27,35,13,10],"Id":9,"Name":null,"Disabled":false},
+{"UpgradeId":11,"RewardNums":[12,10,24,45],"Id":10,"Name":null,"Disabled":false},
+{"UpgradeId":12,"RewardNums":[21,500,22,500],"Id":11,"Name":null,"Disabled":false},
+{"UpgradeId":13,"RewardNums":[25,15,26,20],"Id":12,"Name":null,"Disabled":false},
+{"UpgradeId":14,"RewardNums":[18,100,20,100],"Id":13,"Name":null,"Disabled":false},
+{"UpgradeId":15,"RewardNums":[2,350000,3,486],"Id":14,"Name":null,"Disabled":false},
+{"UpgradeId":0,"RewardNums":[1,500,19999,20442],"Id":15,"Name":null,"Disabled":false}
+]

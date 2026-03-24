@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	
+-->
+
+<skeletons xmlns="medieval/skeletons" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="medieval/skeletons def_skels.xsd">
+  <skeleton mix="0.2" name="soldier_101" offset-y="10" skel="soldier_101" atlas="soldier_101" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_102" offset-y="10" skel="soldier_102" atlas="soldier_101" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_103" offset-y="10" skel="soldier_103" atlas="soldier_101" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_104" offset-y="10" skel="soldier_104" atlas="soldier_101" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_105" offset-y="10" skel="soldier_105" atlas="soldier_101" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_107" offset-y="10" skel="soldier_107" atlas="soldier_101" skin="soldier_107" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_108" offset-y="10" skel="soldier_108" atlas="soldier_101" skin="soldier_108" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_109" offset-y="10" skel="soldier_109" atlas="soldier_101" skin="soldier_109" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_110" offset-y="10" skel="soldier_110" atlas="soldier_101" skin="soldier_110" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_111" offset-y="10" skel="soldier_111" atlas="soldier_101" skin="soldier_111" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_112" offset-y="10" skel="soldier_112" atlas="soldier_101" skin="soldier_112" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_113" offset-y="10" skel="soldier_113" atlas="soldier_101" skin="soldier_113" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_114" offset-y="10" skel="soldier_114" atlas="soldier_514" skin="soldier_114" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_115" offset-y="10" skel="soldier_115" atlas="soldier_514" skin="soldier_115" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_116" offset-y="10" skel="soldier_116" atlas="soldier_514" skin="soldier_116" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_117" offset-y="10" skel="soldier_117" atlas="soldier_117" skin="soldier_117" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_201" offset-y="10" skel="soldier_201" atlas="soldier_201" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_202" offset-y="10" skel="soldier_202" atlas="soldier_201" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_203" offset-y="10" skel="soldier_203" atlas="soldier_201" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_204" offset-y="10" skel="soldier_204" atlas="soldier_201" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_205" offset-y="10" skel="soldier_205" atlas="soldier_201" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_206" offset-y="10" skel="soldier_206" atlas="soldier_201" skin="soldier_206" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_207" offset-y="10" skel="soldier_207" atlas="soldier_201" skin="soldier_207" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_208" offset-y="10" skel="soldier_208" atlas="soldier_201" skin="soldier_208" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_209" offset-y="10" skel="soldier_209" atlas="soldier_201" skin="soldier_209" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_210" offset-y="10" skel="soldier_206" atlas="soldier_201" skin="soldier_210" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="25"/>
+  <skeleton mix="0.2" name="soldier_211" offset-y="10" skel="soldier_206" atlas="soldier_201" skin="soldier_211" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="25"/>
+  <skeleton mix="0.2" name="soldier_212" offset-y="10" skel="soldier_212" atlas="soldier_514" skin="soldier_212" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="25"/>
+  <skeleton mix="0.2" name="soldier_213" offset-y="10" skel="soldier_213" atlas="soldier_213" skin="soldier_213" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="25"/>  
+  <skeleton mix="0.2" name="soldier_301" offset-y="10" skel="soldier_301" atlas="soldier_301" skin="Style5" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_302" offset-y="10" skel="soldier_302" atlas="soldier_302" skin="Style5" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_303" offset-y="10" skel="soldier_303" atlas="soldier_302" skin="Style5" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_304" offset-y="10" skel="soldier_304" atlas="soldier_301" skin="Style5" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_305" offset-y="10" skel="soldier_305" atlas="soldier_305" skin="soldier_305" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_306" offset-y="10" skel="soldier_306" atlas="soldier_305" skin="soldier_306" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_307" offset-y="10" skel="soldier_307" atlas="soldier_307" skin="soldier_307" scale="0.06" ui-scale="1.08" ui-offset-x="-20" ui-offset-y="25"/>
+  <skeleton mix="0.2" name="soldier_308" offset-y="10" skel="soldier_308" atlas="soldier_308" skin="soldier_308" scale="0.09" ui-scale="0.95" ui-offset-x="-20" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_309" offset-y="10" skel="soldier_309" atlas="soldier_305" skin="soldier_309" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_310" offset-y="10" skel="soldier_309" atlas="soldier_305" skin="soldier_310" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_311" offset-y="10" skel="soldier_309" atlas="soldier_305" skin="soldier_311" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_312" offset-y="10" skel="soldier_306" atlas="soldier_305" skin="soldier_312" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_313" offset-y="10" skel="soldier_305" atlas="soldier_305" skin="soldier_313" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_314" offset-y="10" skel="soldier_412" atlas="soldier_305" skin="soldier_314" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_315" offset-y="10" skel="soldier_306" atlas="soldier_305" skin="soldier_315" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_316" offset-y="10" skel="soldier_316" atlas="soldier_305" skin="soldier_316" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_401" offset-y="10" skel="soldier_401" atlas="soldier_301" skin="Style5" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_402" offset-y="10" skel="soldier_402" atlas="soldier_302" skin="Style5" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_403" offset-y="10" skel="soldier_403" atlas="soldier_302" skin="Style5" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_404" offset-y="10" skel="soldier_404" atlas="soldier_301" skin="Style5" ref-skins="Style8,soldier_404_8" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_404_8" offset-y="10" skel="soldier_405" atlas="soldier_307" skin="soldier_404_8" scale="0.06" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_405" offset-y="10" skel="soldier_405" atlas="soldier_307" skin="soldier_405" scale="0.06" ui-scale="1.25" ui-offset-x="-20" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_406" offset-y="10" skel="soldier_405" atlas="soldier_307" skin="soldier_406" scale="0.06" ui-scale="1.25" ui-offset-x="-20" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_407" offset-y="10" skel="soldier_407" atlas="soldier_305" skin="soldier_407" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_408" offset-y="10" skel="soldier_408" atlas="soldier_305" skin="soldier_408" scale="0.06" ui-scale="1.25" ui-offset-x="-15" ui-offset-y="30"/>
+  <skeleton mix="0.2" name="soldier_409" offset-y="10" skel="soldier_407" atlas="soldier_305" skin="soldier_409" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_410" offset-y="10" skel="soldier_407" atlas="soldier_305" skin="soldier_410" scale="0.06" ui-scale="1.25" ui-offset-x="-10" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_411" offset-y="10" skel="soldier_407" atlas="soldier_305" skin="soldier_411" scale="0.06" ui-scale="1.25" ui-offset-x="-10" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_412" offset-y="10" skel="soldier_412" atlas="soldier_305" skin="soldier_412" scale="0.06" ui-scale="1.25" ui-offset-x="-10" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_413" offset-y="10" skel="soldier_413" atlas="soldier_301" skin="soldier_413" scale="0.06" ui-scale="1.25" ui-offset-x="-10" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_414" offset-y="10" skel="soldier_404" atlas="soldier_301" skin="soldier_414" scale="0.06" ui-scale="1.25" ui-offset-x="-10" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_415" offset-y="10" skel="soldier_405" atlas="soldier_307" skin="soldier_415" scale="0.06" ui-scale="1.25" ui-offset-x="-20" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_416" offset-y="10" skel="soldier_416" atlas="soldier_307" skin="soldier_416" scale="0.06" ui-scale="1.25" ui-offset-x="-20" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_417" offset-y="10" skel="soldier_417" atlas="soldier_417" skin="soldier_417" scale="0.06" ui-scale="1.25" ui-offset-x="-20" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_418" offset-y="10" skel="soldier_418" atlas="soldier_417" skin="soldier_418" scale="0.06" ui-scale="1.25" ui-offset-x="-20" ui-offset-y="20"/> 
+  <skeleton mix="0.2" name="soldier_419" offset-y="10" skel="soldier_419" atlas="soldier_305" skin="soldier_419" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_420" offset-y="10" skel="soldier_420" atlas="soldier_420" skin="soldier_420" scale="0.06" ui-scale="1.25" ui-offset-x="-20" ui-offset-y="20"/> 
+  <skeleton mix="0.2" name="soldier_501" offset-y="10" skel="soldier_501" atlas="soldier_501" skin="Style2" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_502" offset-y="10" skel="soldier_502" atlas="soldier_501" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_503" offset-y="10" skel="soldier_503" atlas="soldier_501" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_504" offset-y="10" skel="soldier_504" atlas="soldier_501" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_505" offset-y="10" skel="soldier_505" atlas="soldier_501" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_506" offset-y="10" skel="soldier_506" atlas="soldier_501" skin="Style5" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_507" offset-y="10" skel="soldier_507" atlas="soldier_501" skin="soldier_507" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_508" offset-y="10" skel="soldier_508" atlas="soldier_501" skin="soldier_508" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_509" offset-y="10" skel="soldier_509" atlas="soldier_501" skin="soldier_509" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_510" offset-y="10" skel="soldier_510" atlas="soldier_305" skin="soldier_510" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_511" offset-y="10" skel="soldier_511" atlas="soldier_501" skin="soldier_511" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_512" offset-y="10" skel="soldier_512" atlas="soldier_501" skin="soldier_512" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_513" offset-y="10" skel="soldier_513" atlas="soldier_501" skin="soldier_513" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_514" offset-y="10" skel="soldier_514" atlas="soldier_514" skin="soldier_514" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_515" offset-y="10" skel="soldier_515" atlas="soldier_514" skin="soldier_515" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_516" offset-y="10" skel="soldier_516" atlas="soldier_514" skin="soldier_516" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_517" offset-y="10" skel="soldier_517" atlas="soldier_514" skin="soldier_517" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_518" offset-y="10" skel="soldier_518" atlas="soldier_514" skin="soldier_518" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_519" offset-y="10" skel="soldier_519" atlas="soldier_519" skin="soldier_519" scale="0.06" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_520" offset-y="10" skel="soldier_520" atlas="soldier_520" skin="soldier_520" scale="0.09" ui-scale="1.25" ui-offset-x="0" ui-offset-y="20"/> 
+  <skeleton mix="0.2" name="soldier_601" offset-y="10" skel="soldier_601" atlas="soldier_301" skin="Style5" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_602" offset-y="10" skel="soldier_602" atlas="soldier_302" skin="Style5" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_603" offset-y="10" skel="soldier_603" atlas="soldier_302" skin="Style5" ref-skins="Style11,soldier_603_11" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_603_11" offset-y="10" skel="soldier_603_11" atlas="soldier_302" skin="Style11" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_604" offset-y="10" skel="soldier_604" atlas="soldier_307" skin="soldier_604" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_605" offset-y="10" skel="soldier_605" atlas="soldier_307" skin="soldier_605" scale="0.06" ui-scale="1.08" ui-offset-x="-20" ui-offset-y="25"/>
+  <skeleton mix="0.2" name="soldier_606" offset-y="10" skel="soldier_308" atlas="soldier_308" skin="soldier_606" scale="0.09" ui-scale="0.95" ui-offset-x="-20" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_607" offset-y="10" skel="soldier_607" atlas="soldier_305" skin="soldier_607" scale="0.06" ui-scale="1.25" ui-offset-x="-5" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_608" offset-y="10" skel="soldier_607" atlas="soldier_305" skin="soldier_608" scale="0.06" ui-scale="1.25" ui-offset-x="-10" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_609" offset-y="10" skel="soldier_607" atlas="soldier_305" skin="soldier_609" scale="0.06" ui-scale="1.25" ui-offset-x="-10" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="soldier_610" offset-y="10" skel="soldier_610" atlas="soldier_610" skin="soldier_610" scale="0.06" ui-scale="1.25" ui-offset-x="-10" ui-offset-y="20"/>  
+  <skeleton mix="0.2" name="soldier_611" offset-y="10" skel="soldier_611" atlas="soldier_611" skin="soldier_611" scale="0.05" ui-scale="1.25" ui-offset-x="-20" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="device_100" offset-x="0" offset-y="-20" skel="device_100" atlas="device_100" skin="" scale="0.15" ui-scale="1" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="device_200" offset-x="0" offset-y="-20" skel="device_200" atlas="device_100" skin="" scale="0.2" ui-scale="1" ui-offset-x="0" ui-offset-y="15"/>
+  <skeleton mix="0.2" name="device_300" offset-x="0" offset-y="-20" skel="device_300" atlas="device_100" skin="" scale="0.2" ui-scale="1" ui-offset-x="0" ui-offset-y="15"/>
+  <skeleton mix="0.2" name="device_400" offset-x="0" offset-y="-20" skel="device_400" atlas="device_100" skin="" scale="0.2" ui-scale="0.9" ui-offset-x="0" ui-offset-y="15"/>
+  <skeleton mix="0.2" name="device_500" offset-x="0" offset-y="-20" skel="device_500" atlas="device_100" skin="" scale="0.12" ui-scale="1.2" ui-offset-x="0" ui-offset-y="25"/>
+  <skeleton mix="0.2" name="device_600" offset-x="0" offset-y="-20" skel="device_600" atlas="device_100" skin="" scale="0.15" ui-scale="1.2" ui-offset-x="0" ui-offset-y="30"/>
+  <skeleton mix="0.2" name="device_700" offset-x="0" offset-y="-20" skel="device_700" atlas="device_100" skin="" scale="0.15" ui-scale="1" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="device_800" offset-x="0" offset-y="-20" skel="device_800" atlas="device_800" skin="" scale="0.2" ui-scale="1.12" ui-offset-x="0" ui-offset-y="10"/>
+  <skeleton name="device_900" skel="device_900" offset-y="20"  skel-r="device_900_r" atlas="device_900" skin="" scale="0.25" ui-scale="0.8" ui-offset-x="0" ui-offset-y="50"/>
+  <skeleton name="device_1000" skel="device_1000" offset-y="20"  skel-r="device_1000_r" atlas="device_900" skin="" scale="0.25" ui-scale="0.8" ui-offset-x="0" ui-offset-y="50"/>
+  <skeleton name="device_1100" skel="device_1100" offset-y="20"  skel-r="device_1100_r" atlas="device_900" skin="" scale="0.25" ui-scale="0.8" ui-offset-x="0" ui-offset-y="50"/>
+  <skeleton name="device_1200" skel="device_1200" offset-y="20"  skel-r="device_1200_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.75" ui-offset-x="0" ui-offset-y="65"/>
+  <skeleton name="device_1300" skel="device_1300" offset-y="20"  skel-r="device_1300_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.75" ui-offset-x="10" ui-offset-y="60"/>
+  <skeleton name="device_1400" skel="device_1400" offset-y="20"  skel-r="device_1400_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.75" ui-offset-x="5" ui-offset-y="60"/>
+  <skeleton name="device_1500" skel="device_1500" offset-y="20"  skel-r="device_1500_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.75" ui-offset-x="0" ui-offset-y="55"/>
+  <skeleton name="device_1600" skel="device_1600" offset-y="20"  skel-r="device_1600_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.75" ui-offset-x="0" ui-offset-y="65"/>
+  <skeleton name="device_1700" skel="device_1700" offset-y="20"  skel-r="device_1700_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.75" ui-offset-x="-10" ui-offset-y="65"/>
+  <skeleton name="device_1800" skel="device_1800" offset-y="20"  skel-r="device_1800_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.75" ui-offset-x="-10" ui-offset-y="70"/>
+  <skeleton name="device_1900" skel="device_1900" offset-y="20"  skel-r="device_1900_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.8" ui-offset-x="0" ui-offset-y="35"/>
+  <skeleton name="device_2000" skel="device_2000" offset-y="20"  skel-r="device_2000_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.8" ui-offset-x="0" ui-offset-y="60"/>
+  <skeleton mix="0.2" name="device_2100" offset-x="30"  offset-y="15" skel="device_2100" atlas="device_100" skin=""  scale="0.15" ui-scale="1.2" ui-offset-x="0" ui-offset-y="0"/>
+  <skeleton mix="0.2" name="device_2200" offset-x="20"  offset-y="20" skel="device_2200" atlas="device_2200" skin="" scale="0.15" ui-scale="1.2" ui-offset-x="0" ui-offset-y="0"/>
+  <skeleton mix="0.2" name="device_2300" offset-x="30"  offset-y="20" skel="device_2300" atlas="device_100" skin="" scale="0.2" ui-scale="1.1" ui-offset-x="-20" ui-offset-y="0"/>
+  <skeleton mix="0.2" name="device_2400" offset-y="-20" skel="device_2400" atlas="device_100" skin="" scale="0.15" ui-scale="0.9" ui-offset-x="0" ui-offset-y="10"/>
+  <skeleton mix="0.2" name="device_2500" offset-y="-20" skel="device_2500" atlas="device_800" skin="" scale="0.2"/>
+  <skeleton mix="0.2" name="device_2600" offset-y="-20" skel="device_2600" atlas="device_100" skin="" scale="0.2" ui-scale="0.85" ui-offset-x="0" ui-offset-y="30"/>
+  <skeleton mix="0.2" name="device_2700" offset-y="-20" skel="device_2700" atlas="device_100" skin="device_2700" scale="0.14" ui-scale="1.1" ui-offset-x="0" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="device_2800" offset-y="-20" skel="device_2800" atlas="device_100" skin="" scale="0.12" ui-scale="1.4" ui-offset-x="-25" ui-offset-y="10"/>
+  <skeleton mix="0.2" name="device_2900" offset-x="20"  offset-y="20" skel="device_2900" atlas="device_2900" skin="" scale="0.15" ui-scale="1.4" ui-offset-x="15" ui-offset-y="20"/>
+  <skeleton mix="0.2" name="device_3000" offset-x="0" offset-y="-20" skel="device_3000" atlas="device_2900" skin="" scale="0.15" ui-scale="0.8" ui-offset-x="0" ui-offset-y="50"/>
+  <skeleton name="device_3100" skel="device_3100" offset-y="20"  skel-r="device_3100_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.8" ui-offset-x="0" ui-offset-y="60"/>
+  <skeleton name="device_3200" skel="device_3200" offset-y="20"  skel-r="device_3200_r" atlas="device_900" skin="" scale="0.35" ui-scale="0.75" ui-offset-x="0" ui-offset-y="60"/>
+  <skeleton mix="0.2" name="device_3300" skel="device_3300" offset-y="-20"  atlas="device_2900" skin="" scale="0.2" ui-scale="1" ui-offset-x="-15" ui-offset-y="50"/>
+  <skeleton name="device_3400" skel="device_3400" offset-y="20"  skel-r="device_3400_r" atlas="device_3400" skin="" scale="0.35" ui-scale="0.65" ui-offset-x="-10" ui-offset-y="60"/>
+  <skeleton mix="0.2" name="trap_80053" offset-x="0" offset-y="0" skel="trap_80053" atlas="trap_80053" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="trap_80055" offset-x="0" offset-y="0" skel="trap_80055" atlas="trap_80053" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="trap_80057" offset-x="0" offset-y="0" skel="trap_80057" atlas="trap_80053" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_boom" offset-x="0" offset-y="0" skel="effect_boom" atlas="effect_boom" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_trap" offset-x="0" offset-y="0" skel="effect_trap" atlas="effects_c" skin="type1" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_key_area" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type3" scale="0.75"/>
+  <skeleton mix="0.2" name="effect_key_legion" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_area" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type4" scale="0.75"/>
+  <skeleton mix="0.2" name="effect_hint2_area" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type15" scale="0.75"/>
+  <skeleton mix="0.2" name="effect_hint_legion" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type2" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint2_legion" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type14" scale="1"/>
+  <skeleton mix="0.2" name="effect_idle_legion" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type5" scale="0.75"/>
+  <skeleton mix="0.2" name="effect_reachable_area" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="relation1" scale="1"/>
+  <skeleton mix="0.2" name="effect_aimable_area" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type6" scale="1"/>
+  <skeleton mix="0.2" name="effect_embattle_area" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type8" scale="1"/>
+  <skeleton mix="0.2" name="effect_attackable_area" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type11" scale="0.75"/>
+  <skeleton mix="0.2" name="effect_skillable_area" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type9" scale="1"/>
+  <skeleton mix="0.2" name="effect_skillable_self" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type12" scale="1"/>
+  <skeleton mix="0.2" name="effect_skillable_dest" offset-x="0" offset-y="0" skel="effect_key_area" atlas="effects_b" skin="type10" scale="1"/>
+  <skeleton mix="0.2" name="effect_exchange_area" offset-x="0" offset-y="0" skel="effect_exchange_area" atlas="effect_exchange_area" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_selected_legion" offset-x="0" offset-y="0" skel="effect_hint_unlock" atlas="effects_a" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_unlock" offset-x="0" offset-y="0" skel="effect_unlock" atlas="effects_a" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_upgrade" offset-x="0" offset-y="0" skel="effect_upgrade" atlas="effects_a" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_light" offset-x="0" offset-y="0" skel="effect_light" atlas="effects_b" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_unlock" offset-x="0" offset-y="0" skel="effect_hint_unlock" atlas="effects_a" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_upgrade" offset-x="0" offset-y="0" skel="effect_hint_upgrade" atlas="effects_a" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_purchase" offset-x="0" offset-y="0" skel="effect_hint_purchase" atlas="effects_b" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_cloud" offset-x="0" offset-y="0" skel="effect_hint_cloud" atlas="effects_a" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_quest" offset-x="0" offset-y="0" skel="effect_hint_quest" atlas="effects_a" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_light" offset-x="0" offset-y="0" skel="effect_hint_light" atlas="effects_a" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_exchange" offset-x="0" offset-y="0" skel="effect_hint_exchange" atlas="effects_c" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_forge" offset-x="0" offset-y="0" skel="effect_hint_forge" atlas="effects_c" skin="" scale="1"/>  
+  <skeleton mix="0.2" name="effect_hint_claim" offset-x="0" offset-y="0" skel="effect_hint_claim" atlas="effects_c" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_inlay" offset-x="0" offset-y="0" skel="effect_hint_inlay" atlas="effects_c" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_coin" offset-x="0" offset-y="0" skel="effect_hint_coin" atlas="effects_c" skin="" scale="1.5"/>
+  <skeleton mix="0.2" name="effect_hint_action1" offset-x="0" offset-y="0" skel="effect_hint_action" atlas="effects_c" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_action2" offset-x="0" offset-y="0" skel="effect_hint_action" atlas="effects_c" skin="type2" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_action3" offset-x="0" offset-y="0" skel="effect_hint_action" atlas="effects_c" skin="type3" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_action4" offset-x="0" offset-y="0" skel="effect_hint_action" atlas="effects_c" skin="type4" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_action5" offset-x="0" offset-y="0" skel="effect_hint_action" atlas="effects_c" skin="type5" scale="1"/>
+  <skeleton mix="0.2" name="effect_hint_action6" offset-x="0" offset-y="0" skel="effect_hint_action" atlas="effects_c" skin="type6" scale="1"/>
+  <skeleton mix="0.2" name="effect_charging_troop" offset-x="0" offset-y="0" skel="effect_countering_troop" atlas="effects_a" skin="effect_charging_troop" scale="0.4"/>
+  <skeleton mix="0.2" name="effect_dodging_troop" offset-x="0" offset-y="0" skel="effect_countering_troop" atlas="effects_a" skin="effect_dodging_troop" scale="0.4"/>  
+  <skeleton mix="0.2" name="effect_blocking_troop" offset-x="0" offset-y="0" skel="effect_countering_troop" atlas="effects_a" skin="effect_countering_troop" scale="0.4"/>
+  <skeleton mix="0.2" name="effect_backstabing_troop" offset-x="0" offset-y="0" skel="effect_countering_troop" atlas="effects_a" skin="effect_backstabing_troop" scale="0.4"/>
+  <skeleton mix="0.2" name="effect_backcharging_troop" offset-x="0" offset-y="0" skel="effect_countering_troop" atlas="effects_a" skin="effect_backcharging_troop" scale="0.4"/>
+  <skeleton mix="0.2" name="effect_victory" offset-x="0" offset-y="0" skel="effect_victory" atlas="effects_b" skin="effect_victory" scale="1"/>
+  <skeleton mix="0.2" name="effect_victory2" offset-x="0" offset-y="0" skel="effect_victory2" atlas="effects_a" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_failure" offset-x="0" offset-y="0" skel="effect_victory" atlas="effects_b" skin="effect_failure" scale="1"/>
+  <skeleton mix="0.2" name="effect_available" offset-x="0" offset-y="0" skel="effect_available" atlas="effects_a" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_get_general" offset-x="0" offset-y="0" skel="effect_get_general" atlas="effects_b" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_get_card" offset-x="0" offset-y="0" skel="effect_get_card" atlas="effects_b" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_hot_card" offset-x="0" offset-y="0" skel="effect_get_card" atlas="effects_b" skin="quailty5" scale="1"/>
+  <skeleton mix="0.2" name="effect_occupy_area" offset-x="0" offset-y="0" skel="effect_get_general" atlas="effects_b" skin="type2" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_assign_general" offset-x="0" offset-y="0" skel="effect_unlock" atlas="effects_a" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_upgrade_troop" offset-x="0" offset-y="0" skel="effect_upgrade" atlas="effects_a" skin="type8" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_medal" offset-x="0" offset-y="0" skel="effect_medal" atlas="effects_a" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_treasure" offset-x="0" offset-y="0" skel="effect_treasure" atlas="effects_b" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_exchange" offset-x="0" offset-y="0" skel="effect_exchange" atlas="effects_a" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_hit1" offset-x="0" offset-y="0" skel="effect_1" atlas="effects_a" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_hit2" offset-x="0" offset-y="0" skel="effect_1" atlas="effects_a" skin="type2" scale="1"/>
+  <skeleton mix="0.2" name="effect_auto" offset-x="0" offset-y="0" skel="effect_auto" atlas="effects_b" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_start_battle" offset-x="0" offset-y="0" skel="effect_start_battle" atlas="effects_c" skin="" scale="1"/>
+  <skeleton mix="0.2" name="effect_Tip_occupied" offset-x="0" offset-y="-45" skel="Tip attack" atlas="Tip attack"  skin="type1" scale="1.5"/>
+  <skeleton mix="0.2" name="effect_Tip_exclamation" offset-x="0" offset-y="-45" skel="Tip attack" atlas="Tip attack"  skin="type2" scale="1.5"/>
+  <skeleton mix="0.2" name="effect_Tip_attack" offset-x="10" offset-y="-45" skel="Tip attack" atlas="Tip attack"  skin="type3" scale="1.5"/>
+  <skeleton mix="0.2" name="effect_Tip_question" offset-x="0" offset-y="-45" skel="Tip attack" atlas="Tip attack"  skin="type4" scale="1.5"/>
+  <skeleton mix="0.2" name="effect_Tip_defense" offset-x="0" offset-y="-45" skel="Tip attack" atlas="Tip attack"  skin="type5" scale="1.5"/>
+  <skeleton mix="0.2" name="effect_15000" offset-x="0" offset-y="0" skel="effect_15000" atlas="effects_a" skin="onland" scale="0.7"/>
+  <skeleton mix="0.2" name="effect_15100" offset-x="0" offset-y="0" skel="effect_15000" atlas="effects_a" skin="onboat" scale="0.7"/>
+  <skeleton mix="0.2" name="effect_16000" offset-x="20" offset-y="-20" skel="effect_16000" atlas="effects_c" skin="effect_16000" scale="0.7"/>
+  <skeleton mix="0.2" name="effect_16010" offset-x="20" offset-y="-20" skel="effect_16000" atlas="effects_c" skin="effect_16010" scale="0.7"/>
+  <skeleton mix="0.2" name="effect_16020" offset-x="20" offset-y="-20" skel="effect_16020" atlas="effects_c" skin="effect_16020" scale="0.7"/>
+  <skeleton mix="0.2" name="effect_16030" offset-x="20" offset-y="-20" skel="effect_16020" atlas="effects_c" skin="effect_16030" scale="0.7"/>
+  <skeleton mix="0.2" name="effect_20061" offset-x="20" offset-y="-20" skel="effect_50170" atlas="effects_a" skin="effect_20601" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_30021" offset-x="20" offset-y="-40" skel="effect_30021" atlas="effects_a" skin="" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_30031" offset-x="20" offset-y="-40" skel="effect_30031" atlas="effects_a" skin="" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_30041" offset-x="20" offset-y="-40" skel="effect_30041" atlas="effects_a" skin="" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_30111" offset-x="0" offset-y="0" skel="effect_smoke" atlas="effects_a" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="effect_30112" offset-x="0" offset-y="-10" skel="effect_smoke" atlas="effects_a" skin="type2" scale="1"/>
+  <skeleton mix="0.2" name="effect_40000" offset-x="0" offset-y="-40" skel="effect_50090" atlas="effects_b" skin="effect_40000" scale="0.7"/>
+  <skeleton mix="0.2" name="effect_50040" offset-x="0" offset-y="0" skel="effect_50040" atlas="effects_b" skin="effect_50040" scale="1"/>
+  <skeleton mix="0.2" name="effect_50080" offset-x="20" offset-y="-40" skel="effect_50080" atlas="effects_b" skin="effect_50080" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50090" offset-x="20" offset-y="-20" skel="effect_50090" atlas="effects_b" skin="effect_50090" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50120" offset-x="20" offset-y="-20" skel="effect_50090" atlas="effects_b" skin="effect_50120" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50140" offset-x="20" offset-y="-20" skel="effect_50090" atlas="effects_b" skin="effect_50140" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50150" offset-x="20" offset-y="-20" skel="effect_50150" atlas="effects_a" skin="effect_50150" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50170" offset-x="20" offset-y="-20" skel="effect_50170" atlas="effects_a" skin="effect_50170" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50180" offset-x="20" offset-y="-20" skel="effect_50170" atlas="effects_a" skin="effect_50180" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50220" offset-x="20" offset-y="-20" skel="effect_50170" atlas="effects_a" skin="effect_50220" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50230" offset-x="20" offset-y="-20" skel="effect_50170" atlas="effects_a" skin="effect_50230" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50240" offset-x="20" offset-y="-20" skel="effect_50170" atlas="effects_a" skin="effect_50240" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50250" offset-x="20" offset-y="-20" skel="effect_50170" atlas="effects_a" skin="effect_50250" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50260" offset-x="20" offset-y="-20" skel="effect_50170" atlas="effects_a" skin="effect_50260" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50290" offset-x="20" offset-y="-20" skel="effect_50090" atlas="effects_b" skin="effect_50290" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50650" offset-x="20" offset-y="-20" skel="effect_50170" atlas="effects_a" skin="effect_50650" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50910" offset-x="20" offset-y="-20" skel="effect_50910" atlas="effects_b" skin="effect_50910" scale="0.7"/>
+  <skeleton mix="0.2" name="effect_50920" offset-x="20" offset-y="-20" skel="effect_50910" atlas="effects_b" skin="effect_50920" scale="0.5"/>
+  <skeleton mix="0.2" name="skill_50930" offset-x="20" offset-y="-20" skel="effect_50910" atlas="effects_b" skin="effect_50930" scale="0.7"/>
+  <skeleton mix="0.2" name="effect_50930" offset-x="20" offset-y="-20" skel="effect_50910" atlas="effects_b" skin="effect_50930" scale="0.59"/>
+  <skeleton mix="0.2" name="effect_50940" offset-x="20" offset-y="-20" skel="effect_50940" atlas="effects_c" skin="effect_50650" scale="0.5"/>
+  <skeleton mix="0.2" name="effect_50950" offset-x="20" offset-y="-20" skel="effect_50950" atlas="effects_c" skin="effect_50650" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_50960" offset-x="20" offset-y="-20" skel="effect_50960" atlas="effects_c" skin="effect_50650" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_50970" offset-x="20" offset-y="-20" skel="effect_50910" atlas="effects_b" skin="effect_50970" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_50980" offset-x="20" offset-y="-20" skel="effect_50980" atlas="effects_c" skin="effect_50650" scale="0.5"/>
+  <skeleton mix="0.2" name="skill_50010" offset-x="0" offset-y="0" skel="effect_50010" atlas="effects_b" skin="effect_50010" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50020" offset-x="0" offset-y="0" skel="effect_50020" atlas="effects_b" skin="effect_50020" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50030" offset-x="0" offset-y="0" skel="effect_50030" atlas="effects_b" skin="effect_50030" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50050" offset-x="0" offset-y="0" skel="effect_50050" atlas="effects_b" skin="effect_50050" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50060" offset-x="0" offset-y="0" skel="effect_50060" atlas="effects_b" skin="effect_50060" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50070" offset-x="0" offset-y="0" skel="effect_50070" atlas="effects_b" skin="effect_50070" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50100" offset-x="0" offset-y="0" skel="effect_50160" atlas="effects_a" skin="effect_50270" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50110" offset-x="0" offset-y="0" skel="effect_50060" atlas="effects_b" skin="effect_50110" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50130" offset-x="0" offset-y="0" skel="effect_50130" atlas="effects_b" skin="effect_50130" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50160" offset-x="0" offset-y="0" skel="effect_50160" atlas="effects_a" skin="effect_50160" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50190" offset-x="0" offset-y="0" skel="effect_50160" atlas="effects_a" skin="effect_50190" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50200" offset-x="0" offset-y="0" skel="effect_50160" atlas="effects_a" skin="effect_50200" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50210" offset-x="0" offset-y="0" skel="effect_50160" atlas="effects_a" skin="effect_50210" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50270" offset-x="0" offset-y="0" skel="effect_50160" atlas="effects_a" skin="effect_50270" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50280" offset-x="0" offset-y="0" skel="effect_50170" atlas="effects_a" skin="effect_50280" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_50670" offset-x="0" offset-y="0" skel="effect_50670" atlas="effects_c" skin="type1" scale="1"/>
+  <skeleton mix="0.2" name="skill_50680" offset-x="0" offset-y="0" skel="effect_50670" atlas="effects_c" skin="type2" scale="1"/>
+  <skeleton mix="0.2" name="skill_50690" offset-x="0" offset-y="-40" skel="effect_50690" atlas="effects_c" skin="effect_jianta" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50691" offset-x="0" offset-y="0" skel="effect_50690" atlas="effects_c" skin="effect_jianta2" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50700" offset-x="0" offset-y="-30" skel="effect_50690" atlas="effects_c" skin="effect_paota" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50701" offset-x="0" offset-y="0" skel="effect_50690" atlas="effects_c" skin="effect_paota2" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50771" offset-x="0" offset-y="0" skel="effect_50771" atlas="effects_c" skin="effect_50771" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50791" offset-x="0" offset-y="0" skel="effect_50791" atlas="effects_c" skin="effect_50791" scale="1.2"/>
+  <skeleton mix="0.2" name="skill_50801" offset-x="0" offset-y="0" skel="effect_50801" atlas="effects_c" skin="effect_50801" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50810" offset-x="20" offset-y="-20" skel="skill_50810" atlas="effects_c" skin="skill_50810" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50820" offset-x="0" offset-y="0" skel="skill_50820" atlas="effects_c" skin="skill_50820" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50840" offset-x="20" offset-y="-20" skel="skill_50810" atlas="effects_c" skin="skill_50840" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50850" offset-x="20" offset-y="-20" skel="skill_50810" atlas="effects_c" skin="skill_50850" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50860" offset-x="20" offset-y="-20" skel="skill_50860" atlas="effects_c" skin="skill_50890" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_50890" offset-x="20" offset-y="-20" skel="skill_50890" atlas="effects_c" skin="skill_50890" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51040" offset-x="20" offset-y="-20" skel="skill_51040" atlas="effect_d" skin="type1" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_51050" offset-x="20" offset-y="-20" skel="skill_51040" atlas="effect_d" skin="type2" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_51070" offset-x="0" offset-y="0" skel="skill_51070" atlas="effect_d" skin="skill_51070" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_51070" offset-x="20" offset-y="-5" skel="effect_51070" atlas="effect_d" skin="effect_51070" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_51090" offset-x="20" offset-y="-20" skel="skill_51090" atlas="effect_d" skin="skill_51090" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_51090" offset-x="20" offset-y="-20" skel="effect_51090" atlas="effect_d" skin="effect_51090" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51110" offset-x="20" offset-y="-20" skel="skill_51110" atlas="effect_d" skin="skill_51110" scale="0.9"/>
+  <skeleton mix="0.2" name="effect_51110" offset-x="20" offset-y="-5" skel="effect_51110" atlas="effect_d" skin="effect_51110" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_51130" offset-x="20" offset-y="-20" skel="skill_51130" atlas="effect_d" skin="skill_51130" scale="0.9"/>
+  <skeleton mix="0.2" name="effect_51130" offset-x="20" offset-y="-20" skel="effect_51130" atlas="effect_d" skin="effect_51130" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51150" offset-x="0" offset-y="0" skel="skill_51150" atlas="effect_d" skin="skill_51150" scale="0.9"/>
+  <skeleton mix="0.2" name="skill_51170" offset-x="20" offset-y="-20" skel="skill_51150" atlas="effect_d" skin="skill_51170" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51190" offset-x="20" offset-y="-40" skel="skill_51150" atlas="effect_d" skin="skill_51190" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_51190" offset-x="20" offset-y="-40" skel="effect_51190" atlas="effect_d" skin="effect_51190" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51200" offset-x="20" offset-y="-20" skel="skill_51150" atlas="effect_d" skin="skill_51200" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_51200" offset-x="20" offset-y="-20" skel="effect_51190" atlas="effect_d" skin="effect_51200" scale="0.7"/>
+  <skeleton mix="0.2" name="skill_51210" offset-x="20" offset-y="-20" skel="skill_51150" atlas="effect_d" skin="skill_51210" scale="0.9"/>
+  <skeleton mix="0.2" name="skill_51250" offset-x="0" offset-y="0" skel="effect_hint_action" atlas="effects_c" skin="type7" scale="1"/>
+  <skeleton mix="0.2" name="skill_51300" offset-x="0" offset-y="0" skel="effect_hint_action" atlas="effects_c" skin="type8" scale="1"/>
+  <skeleton mix="0.2" name="skill_51330" offset-x="0" offset-y="0" skel="effect_hint_action" atlas="effects_c" skin="type9" scale="1"/>
+  <skeleton mix="0.2" name="skill_51360" offset-x="0" offset-y="0" skel="effect_hint_action" atlas="effects_c" skin="type10" scale="1.2"/>
+	<skeleton mix="0.2" name="skill_51401" offset-x="20" offset-y="-20" skel="skill_51401" atlas="effect_d" skin="" scale="1.0"/>
+	<skeleton mix="0.2" name="effect_51401" offset-x="20" offset-y="-20" skel="effect_51401" atlas="effect_d" skin="" scale="1.0"/>
+	<skeleton mix="0.2" name="skill_51411" offset-x="0" offset-y="0" skel="skill_51411" atlas="effect_d" skin="" scale="1.0"/>
+	<skeleton mix="0.2" name="effect_51411" offset-x="20" offset-y="-20" skel="effect_51411" atlas="effect_d" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51451" offset-x="0" offset-y="0" skel="skill_51451" atlas="effect_d" skin="" scale="1.0"/>
+	<skeleton mix="0.2" name="effect_51451" offset-x="20" offset-y="-20" skel="effect_51451" atlas="effect_d" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51461" offset-x="0" offset-y="0" skel="skill_51461" atlas="effect_d" skin="" scale="1.0"/>
+	<skeleton mix="0.2" name="effect_51461" offset-x="20" offset-y="-20" skel="effect_51461" atlas="effect_d" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_97901" offset-x="20" offset-y="-20" skel="effect_97901" atlas="effect_d" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_51541" offset-x="20" offset-y="-20" skel="effect_51541" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51541" offset-x="0" offset-y="0" skel="skill_51541" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51551" offset-x="0" offset-y="0" skel="skill_51551" atlas="effect_f" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_51551" offset-x="20" offset-y="-20" skel="effect_51551" atlas="effect_f" skin="" scale="0.7"/>
+  <skeleton mix="0.2" name="effect_51511" offset-x="20" offset-y="-20" skel="effect_51511" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51481" offset-x="0" offset-y="0" skel="skill_51481" atlas="effect_e" skin="" scale="1.0"/>	
+  <skeleton mix="0.2" name="skill_51511" offset-x="0" offset-y="0" skel="skill_51511" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51631" offset-x="0" offset-y="0" skel="skill_51631" atlas="effect_f" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_800200" offset-x="0" offset-y="0" skel="skill_800200" atlas="effect_f" skin="" scale="3.0"/>
+  <skeleton mix="0.2" name="skill_51691" offset-x="0" offset-y="0" skel="effect_51691" atlas="effects_c" skin="" scale="1.5"/>
+	<skeleton mix="0.2" name="effect_51691" offset-x="20" offset-y="-20" skel="effect_51691" atlas="effects_c" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51731" offset-x="0" offset-y="0" skel="effect_51731" atlas="effects_c" skin="" scale="1.5"/>    
+  <skeleton mix="0.2" name="skill_51781" offset-x="0" offset-y="0" skel="effect_51781" atlas="effects_c" skin="" scale="1.5"/>     
+  <skeleton mix="0.2" name="skill_51831" offset-x="0" offset-y="0" skel="effect_51831" atlas="effects_c" skin="" scale="1.5"/>     
+  <skeleton mix="0.2" name="skill_51711" offset-x="0" offset-y="0" skel="effect_51871" atlas="effects_c" skin="" scale="1.5"/>
+  <skeleton mix="0.2" name="effect_52241" offset-x="20" offset-y="-20" skel="effect_52241" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52241" offset-x="0" offset-y="0" skel="skill_52241" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52271" offset-x="20" offset-y="-20" skel="effect_52271" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52271" offset-x="0" offset-y="0" skel="skill_52271" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52291" offset-x="20" offset-y="-20" skel="effect_52291" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52291" offset-x="0" offset-y="0" skel="skill_52291" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52321" offset-x="20" offset-y="-20" skel="effect_52321" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52321" offset-x="0" offset-y="0" skel="skill_52321" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52381" offset-x="20" offset-y="-20" skel="effect_52381" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52521" offset-x="20" offset-y="-20" skel="effect_52521" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52551" offset-x="20" offset-y="-20" skel="effect_52551" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52101" offset-x="20" offset-y="-20" skel="effect_52101" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52131" offset-x="20" offset-y="-20" skel="effect_52131" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52181" offset-x="20" offset-y="-20" skel="effect_52181" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52211" offset-x="20" offset-y="-20" skel="effect_52211" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52361" offset-x="20" offset-y="-20" skel="effect_52361" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_52421" offset-x="20" offset-y="-20" skel="effect_52421" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52181" offset-x="0" offset-y="0" skel="skill_52181" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52381" offset-x="0" offset-y="0" skel="skill_52381" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52101" offset-x="0" offset-y="0" skel="skill_52101" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52131" offset-x="0" offset-y="0" skel="skill_52131" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52211" offset-x="0" offset-y="0" skel="skill_52211" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52341" offset-x="0" offset-y="0" skel="skill_52341" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52361" offset-x="0" offset-y="0" skel="skill_52361" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52421" offset-x="0" offset-y="0" skel="skill_52421" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52521" offset-x="0" offset-y="0" skel="skill_52521" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_52551" offset-x="0" offset-y="0" skel="skill_52551" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton name="haiou" offset-x="0" offset-y="0" skel="haiou" atlas="haiou" skin="" scale="1"/>
+  <skeleton name="haitun" offset-x="0" offset-y="0" skel="haitun" atlas="haitun" skin="" scale="1"/>
+  <skeleton name="flag" offset-x="0" offset-y="5" skel="flag" atlas="flag" skin="" scale="0.5"/>
+  <skeleton name="form_main_title" offset-x="0" offset-y="5" skel="form_main_title" atlas="form_main_title" skin="" scale="0.5"/>
+  <skeleton name="form_main_body_bg" offset-x="0" offset-y="5" skel="form_main_body_bg" atlas="form_main_body" skin="" scale="0.5"/>
+  <skeleton name="form_main_body_rw" offset-x="0" offset-y="5" skel="form_main_body_rw" atlas="form_main_body" skin="" scale="0.5"/>
+  <skeleton name="Olga2" offset-x="0" offset-y="0" skel="Olga2" atlas="Olga2" skin="" scale="1.0"/>
+  <skeleton name="Otto I1" offset-x="0" offset-y="0" skel="Otto I1" atlas="Otto I1" skin="" scale="1.0"/>
+  <skeleton name="Richard I2" offset-x="0" offset-y="0" skel="Richard I2" atlas="Richard I2" skin="" scale="1.0"/>
+  <skeleton name="Edward the Black Prince1" offset-x="0" offset-y="0" skel="Edward the Black Prince1" atlas="Edward the Black Prince1" skin="" scale="1.0"/> 
+  <skeleton name="Su Dingfang1" offset-x="0" offset-y="0" skel="Su Dingfang1" atlas="Su Dingfang1" skin="" scale="1.0"/>  
+  <skeleton name="Charlemagne2" offset-x="0" offset-y="0" skel="Charlemagne2" atlas="Charlemagne2" skin="" scale="1.0"/>
+  <skeleton name="Arthur2" offset-x="0" offset-y="0" skel="Arthur2" atlas="Arthur2" skin="" scale="1.0"/>
+  <skeleton name="Empress Matilda2" offset-x="0" offset-y="0" skel="Empress Matilda2" atlas="Empress Matilda2" skin="" scale="1.0"/>
+  <skeleton name="Genghis Khan2" offset-x="0" offset-y="0" skel="Genghis Khan2" atlas="Genghis Khan2" skin="" scale="1.0"/>
+  <skeleton name="Joan of Arc2" offset-x="0" offset-y="0" skel="Joan of Arc2" atlas="Joan of Arc2" skin="" scale="1.0"/>
+  <skeleton name="Saladin2" offset-x="0" offset-y="0" skel="Saladin2" atlas="Saladin2" skin="" scale="1.0"/>
+  <skeleton name="Mehmed the Conqueror2" offset-x="0" offset-y="0" skel="Mehmed the Conqueror2" atlas="Mehmed the Conqueror2" skin="" scale="1.0"/>
+  <skeleton name="William Wallace2" offset-x="0" offset-y="0" skel="William Wallace2" atlas="William Wallace2" skin="" scale="1.0"/>  
+  <skeleton name="Attila1" offset-x="0" offset-y="0" skel="Attila1" atlas="Attila1" skin="" scale="1.0"/>
+  <skeleton name="Roger II1" skel="Roger II1" atlas="Roger II1" skin="" scale="1.0" ui-offset-x="11" ui-offset-y="0"/>
+  <skeleton name="ZhiTianXinChang1" skel="ZhiTianXinChang1" atlas="ZhiTianXinChang1" skin="" scale="1.0" ui-offset-x="0" ui-offset-y="0"/>
+  <skeleton name="Wu Zetian1" skel="Wu Zetian1" atlas="Wu Zetian1" skin="" scale="1.0" ui-offset-x="0" ui-offset-y="0"/>
+  <skeleton name="Li Shimin1" skel="Li Shimin1" atlas="Li Shimin1" skin="" scale="1.0" ui-offset-x="0" ui-offset-y="0"/>
+  <skeleton name="ShangShanQianXin1" skel="ShangShanQianXin1" atlas="ShangShanQianXin1" skin="" scale="1.0" ui-offset-x="0" ui-offset-y="0"/>  
+  <skeleton name="WuTianXinXuan1" skel="WuTianXinXuan1" atlas="WuTianXinXuan1" skin="" scale="1.0" ui-offset-x="0" ui-offset-y="0"/>
+  <skeleton name="limit_time_gift" skel="limit_time_gift" atlas="limit_time_gift" skin="" scale="1.0" ui-offset-x="0" ui-offset-y="0"/>
+  <skeleton mix="0.2" name="effect_51821" offset-x="20" offset-y="-20" skel="effect_51821" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_51841" offset-x="20" offset-y="-20" skel="effect_51841" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_51911" offset-x="20" offset-y="-20" skel="effect_51911" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_51961" offset-x="20" offset-y="-20" skel="effect_51961" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="effect_51971" offset-x="20" offset-y="-20" skel="effect_51971" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51821" offset-x="0" offset-y="0" skel="skill_51821" atlas="effect_e" skin="" scale="1.0"/> 
+  <skeleton mix="0.2" name="skill_51841" offset-x="0" offset-y="0" skel="skill_51841" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51911" offset-x="0" offset-y="0" skel="skill_51911" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51921" offset-x="0" offset-y="0" skel="skill_51921" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51961" offset-x="0" offset-y="0" skel="skill_51961" atlas="effect_e" skin="" scale="1.0"/>
+  <skeleton mix="0.2" name="skill_51971" offset-x="0" offset-y="0" skel="skill_51971" atlas="effect_e" skin="" scale="1.0"/>
+</skeletons>

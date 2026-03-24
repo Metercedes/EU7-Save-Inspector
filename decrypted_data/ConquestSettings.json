@@ -1,0 +1,11 @@
+[
+{"Index":0,"Scale":1,"InitialYear":515,"InitialMonth":1,"RoundMonth":3,"ScoreRate":1.0,"ScoreE":0,"ScoreD":0,"ScoreC":0,"ScoreB":0,"ScoreA":50000,"ScoreS":100000,"Id":6000001,"Name":null,"Disabled":false},
+{"Index":1,"Scale":1,"InitialYear":435,"InitialMonth":1,"RoundMonth":12,"ScoreRate":1.0,"ScoreE":0,"ScoreD":60000,"ScoreC":90000,"ScoreB":120000,"ScoreA":150000,"ScoreS":180000,"Id":6000101,"Name":null,"Disabled":false},
+{"Index":3,"Scale":2,"InitialYear":850,"InitialMonth":1,"RoundMonth":12,"ScoreRate":1.0,"ScoreE":0,"ScoreD":60000,"ScoreC":90000,"ScoreB":120000,"ScoreA":150000,"ScoreS":180000,"Id":6000102,"Name":null,"Disabled":false},
+{"Index":2,"Scale":3,"InitialYear":530,"InitialMonth":1,"RoundMonth":3,"ScoreRate":1.0,"ScoreE":0,"ScoreD":60000,"ScoreC":90000,"ScoreB":120000,"ScoreA":150000,"ScoreS":180000,"Id":6000103,"Name":null,"Disabled":false},
+{"Index":5,"Scale":3,"InitialYear":1184,"InitialMonth":1,"RoundMonth":3,"ScoreRate":1.0,"ScoreE":0,"ScoreD":60000,"ScoreC":90000,"ScoreB":120000,"ScoreA":150000,"ScoreS":180000,"Id":6000104,"Name":null,"Disabled":false},
+{"Index":4,"Scale":4,"InitialYear":939,"InitialMonth":1,"RoundMonth":12,"ScoreRate":1.0,"ScoreE":0,"ScoreD":90000,"ScoreC":120000,"ScoreB":150000,"ScoreA":180000,"ScoreS":210000,"Id":6000105,"Name":null,"Disabled":false},
+{"Index":6,"Scale":3,"InitialYear":1427,"InitialMonth":1,"RoundMonth":3,"ScoreRate":1.0,"ScoreE":0,"ScoreD":60000,"ScoreC":90000,"ScoreB":120000,"ScoreA":150000,"ScoreS":180000,"Id":6000106,"Name":null,"Disabled":false},
+{"Index":7,"Scale":3,"InitialYear":1444,"InitialMonth":1,"RoundMonth":12,"ScoreRate":1.0,"ScoreE":0,"ScoreD":60000,"ScoreC":90000,"ScoreB":120000,"ScoreA":150000,"ScoreS":180000,"Id":6000107,"Name":null,"Disabled":false},
+{"Index":8,"Scale":4,"InitialYear":395,"InitialMonth":1,"RoundMonth":12,"ScoreRate":1.0,"ScoreE":0,"ScoreD":90000,"ScoreC":120000,"ScoreB":150000,"ScoreA":180000,"ScoreS":210000,"Id":6000108,"Name":null,"Disabled":false}
+]

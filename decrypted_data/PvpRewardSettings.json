@@ -1,0 +1,5 @@
+[
+{"Type":0,"Phase":1,"RewardNums":[2,4000,1,5,10,1,16,2,22,10,24,1],"Id":101,"Name":null,"Disabled":false},
+{"Type":0,"Phase":2,"RewardNums":[2,4500,1,10,11,1,18,1,17,1,24,2],"Id":102,"Name":null,"Disabled":false},
+{"Type":0,"Phase":3,"RewardNums":[2,5500,1,15,19,1,20,1,21,20,907,1,24,5],"Id":103,"Name":null,"Disabled":false}
+]

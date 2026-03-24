@@ -1,0 +1,8 @@
+[
+{"PurchaseID":30,"Version":2002,"CompensateType":3,"Title":"Purchase_Compensate_30","RewardNums":[25,2],"Id":1,"Name":null,"Disabled":false},
+{"PurchaseID":3,"Version":2002,"CompensateType":1,"Title":"Purchase_Compensate_31","RewardNums":[1,2500],"Id":2,"Name":null,"Disabled":false},
+{"PurchaseID":21,"Version":2002,"CompensateType":1,"Title":"Purchase_Compensate_32","RewardNums":[1,2000],"Id":3,"Name":null,"Disabled":false},
+{"PurchaseID":16,"Version":2002,"CompensateType":1,"Title":"Purchase_Compensate_33","RewardNums":[2,150000],"Id":4,"Name":null,"Disabled":false},
+{"PurchaseID":4,"Version":2002,"CompensateType":1,"Title":"Purchase_Compensate_34","RewardNums":[2,125000],"Id":5,"Name":null,"Disabled":false},
+{"PurchaseID":18,"Version":2002,"CompensateType":1,"Title":"Purchase_Compensate_35","RewardNums":[2,100000],"Id":6,"Name":null,"Disabled":false}
+]

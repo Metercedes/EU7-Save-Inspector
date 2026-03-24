@@ -1,0 +1,9 @@
+[
+{"GroundId":1,"GroundScale":1.0,"PixelWidth":8640.0,"PixelHeight":4731.0,"GridCols":318,"GridRows":200,"Id":1,"Name":"100%","Disabled":false},
+{"GroundId":1,"GroundScale":2.0,"PixelWidth":17280.0,"PixelHeight":9462.0,"GridCols":636,"GridRows":400,"Id":2,"Name":"200%","Disabled":false},
+{"GroundId":1,"GroundScale":3.0,"PixelWidth":25920.0,"PixelHeight":14193.0,"GridCols":954,"GridRows":600,"Id":3,"Name":"300%","Disabled":false},
+{"GroundId":1,"GroundScale":4.0,"PixelWidth":34560.0,"PixelHeight":18924.0,"GridCols":1272,"GridRows":800,"Id":4,"Name":"400%","Disabled":false},
+{"GroundId":1,"GroundScale":1.5,"PixelWidth":12960.0,"PixelHeight":7096.0,"GridCols":477,"GridRows":300,"Id":15,"Name":"150%","Disabled":false},
+{"GroundId":1,"GroundScale":1.1,"PixelWidth":9504.0,"PixelHeight":5204.0,"GridCols":349,"GridRows":220,"Id":11,"Name":"110%","Disabled":false},
+{"GroundId":1,"GroundScale":1.25,"PixelWidth":10800.0,"PixelHeight":5913.0,"GridCols":397,"GridRows":250,"Id":12,"Name":"1.25","Disabled":false}
+]

@@ -1,0 +1,8 @@
+<Texture name="tiles.png" />
+<Images>
+    <Image name="randRoom_0.png" x="1" y="1" w="10" h="10" refx="0" refy="0" />
+    <Image name="randRoom_1.png" x="13" y="1" w="10" h="10" refx="0" refy="0" />
+    <Image name="randRoom_2.png" x="25" y="1" w="10" h="10" refx="0" refy="0" />
+    <Image name="randRoom_3.png" x="36" y="1" w="10" h="10" refx="0" refy="0" />
+    <Image name="randRoom_4.png" x="49" y="1" w="10" h="10" refx="0" refy="0" />
+</Images>

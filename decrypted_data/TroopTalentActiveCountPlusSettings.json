@@ -1,0 +1,8 @@
+[
+{"TypeB":1,"NeedNums":[10,20,30,40,50],"BuffIds":[60110,60120,60130,60140,60150],"Id":1,"Name":null,"Disabled":false},
+{"TypeB":2,"NeedNums":[10,20,30,40],"BuffIds":[60210,60220,60230,60240],"Id":2,"Name":null,"Disabled":false},
+{"TypeB":3,"NeedNums":[10,20,30,40,50],"BuffIds":[60310,60320,60330,60340,60350],"Id":3,"Name":null,"Disabled":false},
+{"TypeB":4,"NeedNums":[10,20,30,40,50],"BuffIds":[60410,60420,60430,60440,60450],"Id":4,"Name":null,"Disabled":false},
+{"TypeB":5,"NeedNums":[10,20,30,40],"BuffIds":[60510,60520,60530,60540],"Id":5,"Name":null,"Disabled":false},
+{"TypeB":6,"NeedNums":[10,20,30],"BuffIds":[60610,60620,60630],"Id":6,"Name":null,"Disabled":false}
+]

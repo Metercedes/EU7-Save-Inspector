@@ -1,0 +1,17 @@
+[
+{"DamageDeepen":1,"DamageResist":5,"CostMedal":0,"CostGold":0,"CostItemId":0,"CostItemCount":0,"Icon":null,"AttackPower":null,"Id":1,"Name":"平民","Disabled":false},
+{"DamageDeepen":2,"DamageResist":6,"CostMedal":0,"CostGold":3750,"CostItemId":0,"CostItemCount":0,"Icon":null,"AttackPower":null,"Id":2,"Name":"绅士","Disabled":false},
+{"DamageDeepen":3,"DamageResist":7,"CostMedal":0,"CostGold":4500,"CostItemId":13,"CostItemCount":1,"Icon":null,"AttackPower":null,"Id":3,"Name":"乡绅","Disabled":false},
+{"DamageDeepen":4,"DamageResist":8,"CostMedal":0,"CostGold":5625,"CostItemId":13,"CostItemCount":2,"Icon":null,"AttackPower":null,"Id":4,"Name":"骑士","Disabled":false},
+{"DamageDeepen":5,"DamageResist":9,"CostMedal":0,"CostGold":7125,"CostItemId":13,"CostItemCount":3,"Icon":null,"AttackPower":null,"Id":5,"Name":"从男爵","Disabled":false},
+{"DamageDeepen":6,"DamageResist":10,"CostMedal":0,"CostGold":9375,"CostItemId":13,"CostItemCount":5,"Icon":null,"AttackPower":null,"Id":6,"Name":"男爵","Disabled":false},
+{"DamageDeepen":7,"DamageResist":11,"CostMedal":0,"CostGold":12000,"CostItemId":13,"CostItemCount":7,"Icon":null,"AttackPower":null,"Id":7,"Name":"子爵","Disabled":false},
+{"DamageDeepen":8,"DamageResist":12,"CostMedal":0,"CostGold":15000,"CostItemId":13,"CostItemCount":9,"Icon":null,"AttackPower":null,"Id":8,"Name":"伯爵","Disabled":false},
+{"DamageDeepen":9,"DamageResist":13,"CostMedal":0,"CostGold":18750,"CostItemId":13,"CostItemCount":12,"Icon":null,"AttackPower":null,"Id":9,"Name":"侯爵","Disabled":false},
+{"DamageDeepen":10,"DamageResist":14,"CostMedal":0,"CostGold":23250,"CostItemId":13,"CostItemCount":15,"Icon":null,"AttackPower":null,"Id":10,"Name":"公爵","Disabled":false},
+{"DamageDeepen":11,"DamageResist":15,"CostMedal":0,"CostGold":28500,"CostItemId":13,"CostItemCount":18,"Icon":null,"AttackPower":null,"Id":11,"Name":"亲王","Disabled":false},
+{"DamageDeepen":12,"DamageResist":16,"CostMedal":0,"CostGold":34500,"CostItemId":13,"CostItemCount":21,"Icon":null,"AttackPower":null,"Id":12,"Name":"选侯","Disabled":false},
+{"DamageDeepen":13,"DamageResist":17,"CostMedal":0,"CostGold":41250,"CostItemId":13,"CostItemCount":24,"Icon":null,"AttackPower":null,"Id":13,"Name":"大公","Disabled":false},
+{"DamageDeepen":14,"DamageResist":18,"CostMedal":0,"CostGold":48750,"CostItemId":13,"CostItemCount":27,"Icon":null,"AttackPower":null,"Id":14,"Name":"国王","Disabled":false},
+{"DamageDeepen":15,"DamageResist":20,"CostMedal":0,"CostGold":57000,"CostItemId":13,"CostItemCount":30,"Icon":null,"AttackPower":null,"Id":15,"Name":"皇帝","Disabled":false}
+]

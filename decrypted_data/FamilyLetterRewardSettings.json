@@ -1,0 +1,8 @@
+[
+{"StageGroupId":30001,"RewardNums":[1,250,910,25,12,25,13,20],"Id":1,"Name":null,"Disabled":false},
+{"StageGroupId":30002,"RewardNums":[1,250,910,25,911,20,14,10],"Id":2,"Name":null,"Disabled":false},
+{"StageGroupId":30003,"RewardNums":[1,250,910,25,915,20,12,25],"Id":3,"Name":null,"Disabled":false},
+{"StageGroupId":30004,"RewardNums":[1,250,910,25,914,20,11,50],"Id":4,"Name":null,"Disabled":false},
+{"StageGroupId":30005,"RewardNums":[1,250,910,25,913,20,10,50],"Id":5,"Name":null,"Disabled":false},
+{"StageGroupId":30006,"RewardNums":[1,250,910,25,912,20,19,50],"Id":6,"Name":null,"Disabled":false}
+]

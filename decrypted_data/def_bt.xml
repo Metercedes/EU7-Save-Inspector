@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain xmlns="taif/bt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="taif/bt def_bt.xsd">
+  <forest>
+    <bt id="0" name="faction">
+      <selector id="1">
+        <sequence id="1" name="newturn">
+          <condition id="3011" name="首次进入新回合" ltype="INPUT" lcat="bb" lvalue="20" rtype="CONST" rvalue="0" op="NE" />
+          <action id="3012" name="AIMO_AA_FACTION_UPDATE_TARGET_FACTION" method="28" />
+          <action id="3013" name="AIMO_AA_FACTION_TASK_GENERATION" method="24" />
+          <action id="3014" name="AIMO_AA_FACTION_RESET_ON_NEW_TURN" method="27" />
+        </sequence>
+        <utl-selector id="2" name="economic">
+          <utl-behavior id="10">
+            <consideration id="11" cat="rm" input="1" name="升级城市可用资源百分比" />
+            <consideration id="12" cat="bb" input="1" name="可升级城市比例" />
+            <sequence id="13">
+              <action id="14" name="AIMO_AA_PRD_UPGRADE_CITY" method="1" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="20">
+            <consideration id="21" cat="rm" input="2" name="升级城堡可用资源百分比" />
+            <consideration id="22" cat="bb" input="2" name="可升级城堡比例" />
+            <sequence id="23">
+              <action id="24" name="AIMO_AA_PRD_UPGRADE_CASTLE" method="2" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="30">
+            <consideration id="31" cat="rm" input="3" name="升级工坊可用资源百分比" />
+            <consideration id="32" cat="bb" input="3" name="可升级工坊比例" />
+            <sequence id="33">
+              <action id="34" name="AIMO_AA_PRD_UPGRADE_WORKSHOP" method="3" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="40">
+            <consideration id="41" cat="rm" input="4" name="升级住宅可用资源百分比" />
+            <consideration id="42" cat="bb" input="4" name="可升级住宅比例"/>
+            <consideration id="44" cat="bb" input="28" name="当前人口比例"/>
+            <sequence id="43">
+              <action id="44" name="AIMO_AA_POP_UPGRADE_RESIDENCE" method="4" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="50">
+            <consideration id="51" cat="rm" input="5" name="升级城市人口可用资源百分比" />
+            <consideration id="52" cat="bb" input="1" name="可升级城市比例" />
+            <consideration id="54" cat="bb" input="28" name="当前人口比例"/>
+            <sequence id="53">
+              <action id="54" name="AIMO_AA_POP_UPGRADE_CITY" method="5" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="60">
+            <consideration id="61" cat="rm" input="6" name="升级城堡人口可用资源百分比" />
+            <consideration id="62" cat="bb" input="2" name="可升级城堡比例" />
+            <consideration id="64" cat="bb" input="28" name="当前人口比例"/>
+            <sequence id="63">
+              <action id="64" name="AIMO_AA_POP_UPGRADE_CASTLE" method="6" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="70">
+            <consideration id="71" cat="rm" input="7" name="升级城市防御可用资源百分比" />
+            <consideration id="72" cat="bb" input="5" name="可升级城市防御比例"/>
+            <sequence id="73">
+              <action id="74" name="AIMO_AA_DEF_UPGRADE_CITY_DEFENSE" method="7" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="80">
+            <consideration id="81" cat="rm" input="8" name="升级城堡防御可用资源百分比" />
+            <consideration id="82" cat="bb" input="2" name="可升级城堡比例" />
+            <sequence id="83">
+              <action id="84" name="AIMO_AA_DEF_UPGRADE_CASTLE" method="8" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="90">
+            <consideration id="91" cat="rm" input="9" name="招募轻步兵可用资源百分比"/>
+            <consideration id="94" cat="bb" input="29" name="人口利用率"/>
+            <consideration id="95" cat="bb" input="31" name="人口状况可以接受吗"/>
+            <consideration id="92" cat="wm" input="6" name="可招募该兵种的城市比例"/>
+            <sequence id="93">
+              <action id="94" name="AIMO_AA_DRAFT_LIGHT_INFANTRY" method="9" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="100">
+            <consideration id="101" cat="rm" input="10" name="招募重步兵可用资源百分比"/>
+            <consideration id="104" cat="bb" input="29" name="人口利用率"/>
+            <consideration id="105" cat="bb" input="31" name="人口状况可以接受吗"/>
+            <consideration id="102" cat="wm" input="7" name="可招募该兵种的城市比例"/>
+            <sequence id="103">
+              <action id="104" name="AIMO_AA_DRAFT_HEAVY_INFANTRY" method="10" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="110">
+            <consideration id="111" cat="rm" input="11" name="招募远程步兵可用资源百分比"/>
+            <consideration id="104" cat="bb" input="29" name="人口利用率"/>
+            <consideration id="105" cat="bb" input="31" name="人口状况可以接受吗"/>
+            <consideration id="112" cat="wm" input="8" name="可招募该兵种的城市比例"/>
+            <sequence id="113">
+              <action id="114" name="AIMO_AA_DRAFT_RANGED_INFANTRY" method="11" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="120">
+            <consideration id="121" cat="rm" input="12" name="招募轻骑兵可用资源百分比"/>
+            <consideration id="104" cat="bb" input="29" name="人口利用率"/>
+            <consideration id="105" cat="bb" input="31" name="人口状况可以接受吗"/>
+            <consideration id="122" cat="wm" input="9" name="可招募该兵种的城市比例"/>
+            <sequence id="123">
+              <action id="124" name="AIMO_AA_DRAFT_LIGHT_CAVALRY" method="12" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="130">
+            <consideration id="131" cat="rm" input="13" name="招募重骑兵可用资源百分比"/>
+            <consideration id="104" cat="bb" input="29" name="人口利用率"/>
+            <consideration id="105" cat="bb" input="31" name="人口状况可以接受吗"/>
+            <consideration id="132" cat="wm" input="10" name="可招募该兵种的城市比例"/>
+            <sequence id="133">
+              <action id="134" name="AIMO_AA_DRAFT_HEAVY_CAVALRY" method="13" />
+            </sequence>
+          </utl-behavior>
+          <utl-behavior id="140">
+            <consideration id="141" cat="rm" input="14" name="招募远程骑兵可用资源百分比"/>
+            <consideration id="104" cat="bb" input="29" name="人口利用率"/>
+            <consideration id="105" cat="bb" input="31" name="人口状况可以接受吗"/>
+            <consideration id="142" cat="wm" input="11" name="可招募该兵种的城市比例"/>
+            <sequence id="143">
+              <action id="144" name="AIMO_AA_DRAFT_RANGED_CAVALRY" method="14" />
+            </sequence>
+          </utl-behavior>
+        </utl-selector>
+        <sequence id="200" name="policy">
+          <condition name="isConquestMode" ltype="INPUT" lcat="bb" lvalue="27" rtype="CONST" rvalue="1" op="EQ"/>
+          <utl-selector>
+            <utl-behavior id="201" name="policy_battle">
+              <consideration id="2011" cat="rm" input="15" />
+              <consideration id="2012" cat="wm" input="12" />
+              <action id="2013" name="AIMO_AA_IMPLEMENT_POLICY_BATTLE" method="15" />
+            </utl-behavior>
+            <utl-behavior id="202" name="policy_logistics">
+              <consideration id="2021" cat="rm" input="16" />
+              <consideration id="2022" cat="wm" input="13" />
+              <action id="2023" name="AIMO_AA_IMPLEMENT_POLICY_LOGISTICS" method="16" />
+            </utl-behavior>
+            <utl-behavior id="203" name="policy_management">
+              <consideration id="2031" cat="rm" input="17" />
+              <consideration id="2032" cat="wm" input="14" />
+              <action id="144" name="AIMO_AA_IMPLEMENT_POLICY_MANAGEMENT" method="17" />
+            </utl-behavior>
+            <utl-behavior id="204" name="policy_diplomacy">
+              <consideration id="2041" cat="rm" input="18" />
+              <consideration id="2042" cat="wm" input="15" />
+              <action id="2043" name="AIMO_AA_IMPLEMENT_POLICY_DIPLOMACY" method="18" />
+            </utl-behavior>
+          </utl-selector>
+        </sequence>
+        <selector id="300" name="task">
+          <sequence id="301">
+            <selector id="3010">
+              <condition id="3012" name="HAS_ANY_STOPPED_TASK" ltype="INPUT" lcat="bb" lvalue="21" rtype="CONST" rvalue="0" op="NE" />
+            </selector>
+            <action id="3013" name="AIMO_AA_FACTION_TASK_GENERATION" method="24" />
+          </sequence>
+        </selector>
+        <selector id="400" name="action">
+          <sequence id="401">
+            <condition id="4011" name="AIMI_BB_FACTION_HAS_ANY_RUNNING_GROUP" ltype="INPUT" lcat="bb" lvalue="23" rtype="CONST" rvalue="0" op="NE" />
+            <action id="4012" name="AIMO_AA_FACTION_EXECUTE_GROUP" method="26" />
+          </sequence>
+        </selector>
+        <sequence id="9">
+          <action id="90" name="END_TURN" method="23" />
+        </sequence>
+      </selector>
+    </bt>
+    <bt id="1" name="group">
+      <sequence id="10">
+        <selector id="2">
+          <sequence id="21">
+            <condition id="210" name="任务状态为INVALID" ltype="INPUT" lcat="bb" lvalue="100" rtype="CONST" rvalue="0" op="EQ" />
+            <action id="201" name="AMIO_AA_GROUP_TASK_GENERATION" method="101" />
+          </sequence>
+          <sequence id="22">
+            <selector id="220">
+              <condition id="220" name="任务状态为SUCCESS" ltype="INPUT" lcat="bb" lvalue="100" rtype="CONST" rvalue="1" op="EQ" />
+              <condition id="220" name="任务状态为FAILED" ltype="INPUT" lcat="bb" lvalue="100" rtype="CONST" rvalue="2" op="EQ" />
+            </selector>
+            <action id="221" name="停止任务" method="104" />
+          </sequence>
+          <sequence id="23">
+            <selector id="230">
+              <sequence id="2301">
+                <condition id="2302" name="AIMI_BB_GROUP_HAS_ANY_COMPLETED_UNIT_TASK" ltype="INPUT" lcat="bb" lvalue="101" rtype="CONST" rvalue="1" op="EQ" />
+                <action id="2303" name="AMIO_AA_GROUP_TASK_GENERATION" method="101" />
+                <action id="100" name="更新任务状态" method="103" />
+              </sequence>
+              <sequence id="2311">
+                <condition id="2312" name="任务状态为RUNNING" ltype="INPUT" lcat="bb" lvalue="100" rtype="CONST" rvalue="3" op="EQ" />
+                <condition id="2312" name="AIMI_BB_GROUP_HAS_ANY_RUNNING_UNIT" ltype="INPUT" lcat="bb" lvalue="102" rtype="CONST" rvalue="0" op="NE" />
+                <action id="2313" name="AMIO_AA_GROUP_EXECUTE_UNIT" method="100" />
+                <action id="100" name="更新任务状态" method="103" />
+              </sequence>
+            </selector>
+          </sequence>
+        </selector>
+      </sequence>
+    </bt>
+    <bt id="2" name="unit">
+      <selector id="1">
+        <sequence id="10">
+          <condition id="101" name="状态为Invalid" ltype="INPUT" lcat="bb" lvalue="201" rtype="CONST" rvalue="0" op="EQ" />
+          <action id="100" name="UpdateTaskStatus" method="200" />
+          <action id="102" name="UpdateTarget" method="201" />
+        </sequence>
+        <sequence id="11" name="状态为SUCCESS/FAILURE">
+          <selector>
+            <condition id="110" name="状态为SUCCESS" ltype="INPUT" lcat="bb" lvalue="201" rtype="CONST" rvalue="1" op="EQ" />
+            <condition id="111" name="状态为FAILED" ltype="INPUT" lcat="bb" lvalue="201" rtype="CONST" rvalue="2" op="EQ" />
+          </selector>
+          <action id="112" name="StopTask" method="202" />
+          <action id="113" name="EndAction" method="211" />
+        </sequence>
+        <sequence id="12">
+          <condition id="120" name="状态为RUNNING" ltype="INPUT" lcat="bb" lvalue="201" rtype="CONST" rvalue="3" op="EQ" />
+          <action id="102" name="UpdateTarget" method="201" />
+          <selector>
+            <selector name="alternative_actions">
+              <sequence>
+                <condition name="AIMI_BB_UNIT_CURRENT_DEVICE_TYPE" ltype="INPUT" lcat="bb" lvalue="207" rtype="CONST" rvalue="1" op="NE" />
+                <condition name="AIMI_BB_UNIT_SUITABLE_DEVICE_TYPE" ltype="INPUT" lcat="bb" lvalue="211" rtype="CONST" rvalue="1" op="EQ" />
+                <condition name="AIMI_BB_UNIT_DEVICE_QUALIFIED_TO_INSTALL_VEHICLE" ltype="INPUT" lcat="bb" lvalue="208" rtype="CONST" rvalue="1" op="EQ" />
+                <action name="AIMI_AA_UNIT_INSTALL_DEVICE_VEHICLE" method="208" />
+              </sequence>
+              <sequence>
+                <condition name="AIMI_BB_UNIT_CURRENT_DEVICE_TYPE" ltype="INPUT" lcat="bb" lvalue="207" rtype="CONST" rvalue="2" op="NE" />
+                <condition name="AIMI_BB_UNIT_SUITABLE_DEVICE_TYPE" ltype="INPUT" lcat="bb" lvalue="211" rtype="CONST" rvalue="2" op="EQ" />
+                <condition name="AIMI_BB_UNIT_DEVICE_QUALIFIED_TO_EQUIP_SHIP" ltype="INPUT" lcat="bb" lvalue="209" rtype="CONST" rvalue="1" op="EQ" />
+                <action name="AIMI_AA_UNIT_INSTALL_DEVICE_SHIP" method="209" />
+              </sequence>
+              <sequence>
+                <condition name="AIMI_BB_UNIT_CURRENT_DEVICE_TYPE" ltype="INPUT" lcat="bb" lvalue="207" rtype="CONST" rvalue="3" op="NE" />
+                <condition name="AIMI_BB_UNIT_SUITABLE_DEVICE_TYPE" ltype="INPUT" lcat="bb" lvalue="211" rtype="CONST" rvalue="3" op="EQ" />
+                <condition name="AIMI_BB_UNIT_DEVICE_QUALIFIED_TO_INSTALL_DEFENCE" ltype="INPUT" lcat="bb" lvalue="210" rtype="CONST" rvalue="1" op="EQ" />
+                <action name="AIMI_AA_UNIT_INSTALL_DEVICE_DEFENCE" method="210" />
+              </sequence>
+              <sequence name="UseSkill">
+                <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="0" op="NE"/>
+                <condition name="AIMI_WM_UNIT_NUM_SKILL_TARGETABLE_AREA" ltype="INPUT" lcat="wm" lvalue="203" rtype="CONST" rvalue="0" op="GT"/>
+                <selector>
+                  <sequence name="skill_50010">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50010" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" m="-1" c="1" hard="true" min="0.2">
+                        <query-literal name="0" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50020">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50020" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" m="-1" c="1" hard="true" min="0.2">
+                        <query-literal name="10" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50030">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50030" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.5">
+                        <query-literal name="14" type="int"/>
+                      </query-evaluator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="19" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50040">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50040" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="11" type="int"/>
+                      </query-evaluator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="12" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50050">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50050" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="0" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50060">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50060" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.5">
+                        <query-literal name="13" type="int"/>
+                      </query-evaluator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="11" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50070">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50070" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="10" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50080">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50080" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="11" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50110">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50110" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.25">
+                        <query-literal name="10" type="int"/>
+                      </query-evaluator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="11" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50120">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50120" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.25">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50130">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50130" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.25">
+                        <query-literal name="11" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50140">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50140" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50150">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50150" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50160">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50160" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" max="0.8">
+                        <query-literal name="10" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50170">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50170" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="13" type="int"/>
+                      </query-evaluator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="11" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50180">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50180" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="13" type="int"/>
+                      </query-evaluator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="11" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50190">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50190" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="13" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50200">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50200" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" m="-1" c="1">
+                        <query-literal name="12" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50210">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50210" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.2">
+                        <query-literal name="11" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50220">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50220" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" m="-1" c="1" hard="true" min="0.1">
+                        <query-literal name="10" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50230">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50230" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50240">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50240" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea"  hard="true" min="0.1">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50250">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50250" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50260">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50260" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.5">
+                        <query-literal name="13" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50280">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50280" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.5">
+                        <query-literal name="13" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50290">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50290" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.5">
+                        <query-literal name="13" type="int"/>
+                      </query-evaluator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50650">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50650" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.5">
+                        <query-literal name="13" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50660">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50660" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.5">
+                        <query-literal name="11" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50680">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50680" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.5">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" m="-1" c="1">
+                        <query-literal name="11" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_17000">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="17000" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea">
+                        <query-literal name="17" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50710">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50710" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true">
+                        <query-literal name="17" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50720">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50720" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true">
+                        <query-literal name="17" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50730">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50730" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true">
+                        <query-literal name="17" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50740">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50740" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true">
+                        <query-literal name="17" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50750">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50750" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true">
+                        <query-literal name="17" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50770">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50770" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50790">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50790" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50800">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50800" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" min="0.1">
+                        <query-literal name="16" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_50930">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50930" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" m="-1" c="1" hard="true" min="0.5">
+                        <query-literal name="10" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_51150">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="51150" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true" m="-1" c="1" min="0.9">
+                        <query-literal name="10" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_51250">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="51250" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true">
+                        <query-literal name="17" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_51300">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="51300" op="EQ"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                      <query-evaluator name="CEvaluator_SkillTargetArea" hard="true">
+                        <query-literal name="17" type="int"/>
+                      </query-evaluator>
+                    </query>
+                  </sequence>
+                  <sequence name="skill_others">
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50670" op="NE"/>
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="50820" op="NE"/>
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="51070" op="NE"/>
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="51210" op="NE"/>
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="51360" op="NE"/>
+                    <condition name="AIMI_BB_UNIT_ACTIVE_SKILL_BASEID" ltype="INPUT" lcat="bb" lvalue="212" rtype="CONST" rvalue="51420" op="NE"/>
+                    <query wmkey="204">
+                      <query-generator name="CGenerator_TargetsCanUseSkill">
+                        <query-function name="CFunction_GetUnitAgentLocation"/>
+                      </query-generator>
+                    </query>
+                  </sequence>
+                </selector>
+                <action name="AIMI_AA_UNIT_USE_SKILL" method="213"/>
+              </sequence>
+            </selector>
+            <sequence id="11" name="Clear">
+              <condition id="111" name="Type::Clear" ltype="INPUT" lcat="bb" lvalue="202" rtype="CONST" rvalue="1" op="EQ" />
+              <selector>
+                <sequence>
+                  <condition name="攻击范围内?" ltype="INPUT" lcat="bb" lvalue="203" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AMMI_BB_UNIT_TARGET_CAN_BE_ATTACKED" ltype="INPUT" lcat="bb" lvalue="204" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                  <action id="113" name="攻击" method="204" />
+                </sequence>
+                <sequence>
+                  <condition name="攻击范围外?" ltype="INPUT" lcat="bb" lvalue="203" rtype="CONST" rvalue="0" op="EQ" />
+                  <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AIMI_WM_UNIT_FOUND_MOVE_POSITION_TO_TARGET" ltype="INPUT" lcat="wm" lvalue="202" rtype="CONST" rvalue="0" op="NE" />
+                  <action id="114" name="AIMI_AA_UNIT_NAVIGATE_TO_TARGET" method="203" />
+                </sequence>
+              </selector>
+            </sequence>
+            <sequence id="12" name="Ocuppy">
+              <condition id="121" name="Type::Ocuppy" ltype="INPUT" lcat="bb" lvalue="202" rtype="CONST" rvalue="2" op="EQ" />
+              <selector>
+                <sequence>
+                  <condition name="AIMI_WM_UNIT_FOUND_MOVE_POSITION_TO_TARGET" ltype="INPUT" lcat="wm" lvalue="202" rtype="CONST" rvalue="0" op="NE" />
+                  <action id="114" name="AIMI_AA_UNIT_NAVIGATE_TO_TARGET" method="203" />
+                </sequence>
+                <sequence>
+                  <condition name="攻击范围内?" ltype="INPUT" lcat="bb" lvalue="203" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AMMI_BB_UNIT_TARGET_CAN_BE_ATTACKED" ltype="INPUT" lcat="bb" lvalue="204" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                  <action id="113" name="攻击" method="204" />
+                </sequence>
+                <sequence>
+                  <condition name="攻击范围外?" ltype="INPUT" lcat="bb" lvalue="203" rtype="CONST" rvalue="0" op="EQ" />
+                  <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AIMI_WM_UNIT_FOUND_MOVE_POSITION_TO_TARGET" ltype="INPUT" lcat="wm" lvalue="202" rtype="CONST" rvalue="0" op="NE" />
+                  <action id="114" name="AIMI_AA_UNIT_NAVIGATE_TO_TARGET" method="203" />
+                </sequence>
+              </selector>
+            </sequence>
+            <sequence id="13" name="Defend">
+              <condition id="121" name="Type::Defend" ltype="INPUT" lcat="bb" lvalue="202" rtype="CONST" rvalue="3" op="EQ" />
+              <selector>
+                <sequence>
+                  <condition name="AIMI_WM_UNIT_FOUND_MOVE_POSITION_TO_TARGET" ltype="INPUT" lcat="wm" lvalue="202" rtype="CONST" rvalue="0" op="NE" />
+                  <action id="114" name="AIMI_AA_UNIT_NAVIGATE_TO_TARGET" method="203" />
+                </sequence>
+                <sequence>
+                  <condition name="攻击范围内?" ltype="INPUT" lcat="bb" lvalue="203" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AMMI_BB_UNIT_TARGET_CAN_BE_ATTACKED" ltype="INPUT" lcat="bb" lvalue="204" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                  <action id="113" name="攻击" method="204" />
+                </sequence>
+                <sequence>
+                  <condition name="攻击范围外?" ltype="INPUT" lcat="bb" lvalue="203" rtype="CONST" rvalue="0" op="EQ" />
+                  <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AIMI_WM_UNIT_FOUND_MOVE_POSITION_TO_TARGET" ltype="INPUT" lcat="wm" lvalue="202" rtype="CONST" rvalue="0" op="NE" />
+                  <action id="114" name="AIMI_AA_UNIT_NAVIGATE_TO_TARGET" method="203" />
+                </sequence>
+              </selector>
+            </sequence>
+            <sequence id="14" name="Move">
+              <condition id="121" name="Type::Move" ltype="INPUT" lcat="bb" lvalue="202" rtype="CONST" rvalue="4" op="EQ" />
+              <selector>
+                <sequence>
+                  <condition name="AIMI_WM_UNIT_FOUND_MOVE_POSITION_TO_TARGET" ltype="INPUT" lcat="wm" lvalue="202" rtype="CONST" rvalue="0" op="NE" />
+                  <action id="114" name="AIMI_AA_UNIT_NAVIGATE_TO_TARGET" method="203" />
+                </sequence>
+                <sequence>
+                  <condition name="攻击范围内?" ltype="INPUT" lcat="bb" lvalue="203" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AMMI_BB_UNIT_TARGET_CAN_BE_ATTACKED" ltype="INPUT" lcat="bb" lvalue="204" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                  <action id="113" name="攻击" method="204" />
+                </sequence>
+                <sequence>
+                  <condition name="攻击范围外?" ltype="INPUT" lcat="bb" lvalue="203" rtype="CONST" rvalue="0" op="EQ" />
+                  <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                  <condition name="AIMI_WM_UNIT_FOUND_MOVE_POSITION_TO_TARGET" ltype="INPUT" lcat="wm" lvalue="202" rtype="CONST" rvalue="0" op="NE" />
+                  <action id="114" name="AIMI_AA_UNIT_NAVIGATE_TO_TARGET" method="203" />
+                </sequence>
+              </selector>
+            </sequence>
+            <sequence id="15" name="Alert">
+              <condition id="151" name="Type::Alert" ltype="INPUT" lcat="bb" lvalue="202" rtype="CONST" rvalue="5" op="EQ" />
+              <selector>
+                <sequence name="ClearEnemiesInAlertRange">
+                  <condition id="152" name="NumOfEnemyInAlertRange" ltype="INPUT" lcat="wm" lvalue="200" rtype="CONST" rvalue="0" op="GT" />
+                  <action id="153" name="SetTargetInAlertRange" method="205" />
+                  <selector>
+                    <sequence>
+                      <condition name="攻击范围内?" ltype="INPUT" lcat="bb" lvalue="203" rtype="CONST" rvalue="1" op="EQ" />
+                      <condition name="AMMI_BB_UNIT_TARGET_CAN_BE_ATTACKED" ltype="INPUT" lcat="bb" lvalue="204" rtype="CONST" rvalue="1" op="EQ" />
+                      <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                      <action id="113" name="攻击" method="204" />
+                    </sequence>
+                    <sequence>
+                      <condition name="攻击范围外?" ltype="INPUT" lcat="bb" lvalue="203" rtype="CONST" rvalue="0" op="EQ" />
+                      <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                      <condition name="AIMI_WM_UNIT_FOUND_MOVE_POSITION_TO_TARGET" ltype="INPUT" lcat="wm" lvalue="202" rtype="CONST" rvalue="0" op="NE" />
+                      <action id="114" name="AIMI_AA_UNIT_NAVIGATE_TO_TARGET" method="203" />
+                    </sequence>
+                    <sequence>
+                      <action id="153" name="UpdateTarget" method="201" />
+                      <always-failure id="112" name="AlwaysFailure"/>
+                    </sequence>
+                  </selector>
+                </sequence>
+                <sequence name="BackToAlertPosition">
+                  <condition name="AIMI_WM_UNIT_FOUND_MOVE_POSITION_TO_TARGET" ltype="INPUT" lcat="wm" lvalue="202" rtype="CONST" rvalue="0" op="NE" />
+                  <action id="114" name="AIMI_AA_UNIT_NAVIGATE_TO_TARGET" method="203" />
+                </sequence>
+              </selector>
+            </sequence>
+            <selector id="19" name="其它可选操作">
+              <sequence name="Attack_Neighboring_Enemy">
+                <condition name="AIMI_BB_UNIT_HAS_AP_TO_ATTACK" ltype="INPUT" lcat="bb" lvalue="206" rtype="CONST" rvalue="1" op="EQ" />
+                <condition name="AIMI_WM_UNIT_NUM_ENEMY_IN_ATTACK_RANGE" ltype="INPUT" lcat="wm" lvalue="201" rtype="CONST" rvalue="0" op="GT" />
+                <action id="153" name="AttackNeighboringEnemy" method="207" />
+              </sequence>
+            </selector>
+            <sequence id="20" name="停止行动">
+              <action id="112" name="EndAction" method="211" />
+            </sequence>
+          </selector>
+          <action id="100" name="更新任务状态" method="200" />
+        </sequence>
+        <!-- <sequence id="13" name="EndTurn">
+                    <action id="131" name="Standby" method="211" />
+                </sequence> -->
+      </selector>
+    </bt>
+  </forest>
+  <prefsets>
+    <prefset id="1" name="faction_normal">
+      <pref id="1" name="strategy_group" key="1" value="1" />
+      <pref id="4" name="bravery" key="3" value="1.0" />
+      <pref id="5" name="hostility " key="4" value="1.2" />
+      <pref id="6" name="aggression" key="5" value="1.0" />
+      <pref id="7" name="confidence" key="6" value="1.2" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="1.0" />
+      <pref id="9" name="device_ship_ratio" key="8" value="1.0" />
+      <pref id="10" name="device_defence_ratio" key="9" value="1.0" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="1.5" />
+    </prefset>
+    <prefset id="2" name="faction_defensive">
+      <pref id="1" name="strategy_group" key="1" value="1" />
+      <pref id="4" name="bravery" key="3" value="0.75" />
+      <pref id="5" name="hostility " key="4" value="1.0" />
+      <pref id="6" name="aggression" key="5" value="0.75" />
+      <pref id="7" name="confidence" key="6" value="4.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="0.3" />
+      <pref id="9" name="device_ship_ratio" key="8" value="0.4" />
+      <pref id="10" name="device_defence_ratio" key="9" value="0.3" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="1.0" />
+    </prefset>
+    <!-- 征服普通 -->
+    <prefset id="10" name="faction_normal">
+      <pref id="1" name="strategy_group" key="1" value="11" />
+      <pref id="4" name="bravery" key="3" value="1.0" />
+      <pref id="5" name="hostility " key="4" value="1.0" />
+      <pref id="6" name="aggression" key="5" value="1.0" />
+      <pref id="7" name="confidence" key="6" value="1.2" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="1.0" />
+      <pref id="9" name="device_ship_ratio" key="8" value="1.0" />
+      <pref id="10" name="device_defence_ratio" key="9" value="1.0" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 征服汪达尔普通-->
+    <prefset id="11" name="faction_normal">
+      <pref id="1" name="strategy_group" key="1" value="11" />
+      <pref id="4" name="bravery" key="3" value="1.0" />
+      <pref id="5" name="hostility " key="4" value="1.0" />
+      <pref id="6" name="aggression" key="5" value="1.0" />
+      <pref id="7" name="confidence" key="6" value="1.2" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="1.0" />
+      <pref id="9" name="device_ship_ratio" key="8" value="0.2" />
+      <pref id="10" name="device_defence_ratio" key="9" value="0.8" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 征服地中海海盗普通 -->
+    <prefset id="12" name="faction_normal">
+      <pref id="1" name="strategy_group" key="1" value="11" />
+      <pref id="4" name="bravery" key="3" value="1.5" />
+      <pref id="5" name="hostility " key="4" value="1.0" />
+      <pref id="6" name="aggression" key="5" value="0.8" />
+      <pref id="7" name="confidence" key="6" value="2.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="0.5" />
+      <pref id="9" name="device_ship_ratio" key="8" value="1.0" />
+      <pref id="10" name="device_defence_ratio" key="9" value="0.5" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 征服保守 -->
+    <prefset id="20" name="faction_defensive">
+      <pref id="1" name="strategy_group" key="1" value="12" />
+      <pref id="4" name="bravery" key="3" value="0.8" />
+      <pref id="5" name="hostility " key="4" value="0.7" />
+      <pref id="6" name="aggression" key="5" value="0.5" />
+      <pref id="7" name="confidence" key="6" value="2.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="0.7" />
+      <pref id="9" name="device_ship_ratio" key="8" value="0.3" />
+      <pref id="10" name="device_defence_ratio" key="9" value="1.0" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 征服保守跨海 暂时给不列颠人用-->
+    <prefset id="21" name="faction_defensive">
+      <pref id="1" name="strategy_group" key="1" value="16" />
+      <pref id="4" name="bravery" key="3" value="0.8" />
+      <pref id="5" name="hostility " key="4" value="1.0" />
+      <pref id="6" name="aggression" key="5" value="0.3" />
+      <pref id="7" name="confidence" key="6" value="3.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="0.3" />
+      <pref id="9" name="device_ship_ratio" key="8" value="1.0" />
+      <pref id="10" name="device_defence_ratio" key="9" value="0.5" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 极端保守 罗马用 -->
+    <prefset id="22" name="faction_defensive">
+      <pref id="1" name="strategy_group" key="1" value="12" />
+      <pref id="4" name="bravery" key="3" value="0.8" />
+      <pref id="5" name="hostility " key="4" value="0.8" />
+      <pref id="6" name="aggression" key="5" value="0.4" />
+      <pref id="7" name="confidence" key="6" value="4.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="0.5" />
+      <pref id="9" name="device_ship_ratio" key="8" value="0.3" />
+      <pref id="10" name="device_defence_ratio" key="9" value="1.0" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 极端保守 拜占庭用 -->
+    <prefset id="23" name="faction_defensive">
+      <pref id="1" name="strategy_group" key="1" value="12" />
+      <pref id="4" name="bravery" key="3" value="0.8" />
+      <pref id="5" name="hostility " key="4" value="0.8" />
+      <pref id="6" name="aggression" key="5" value="0" />
+      <pref id="7" name="confidence" key="6" value="4.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="0.5" />
+      <pref id="9" name="device_ship_ratio" key="8" value="0.3" />
+      <pref id="10" name="device_defence_ratio" key="9" value="1.0" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 极端保守 教皇国用 -->
+    <prefset id="24" name="faction_defensive">
+      <pref id="1" name="strategy_group" key="1" value="17" />
+      <pref id="4" name="bravery" key="3" value="0.8" />
+      <pref id="5" name="hostility " key="4" value="0.8" />
+      <pref id="6" name="aggression" key="5" value="0" />
+      <pref id="7" name="confidence" key="6" value="4.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="0.5" />
+      <pref id="9" name="device_ship_ratio" key="8" value="0.3" />
+      <pref id="10" name="device_defence_ratio" key="9" value="1.0" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 征服侵略 -->
+    <prefset id="30" name="faction_Aggressive">
+      <pref id="1" name="strategy_group" key="1" value="13" />
+      <pref id="4" name="bravery" key="3" value="1.5" />
+      <pref id="5" name="hostility " key="4" value="2.0" />
+      <pref id="6" name="aggression" key="5" value="2.0" />
+      <pref id="7" name="confidence" key="6" value="1.5" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="1.0" />
+      <pref id="9" name="device_ship_ratio" key="8" value="0.5" />
+      <pref id="10" name="device_defence_ratio" key="9" value="0.5" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 征服海盗 -->
+    <prefset id="31" name="faction_Aggressive">
+      <pref id="1" name="strategy_group" key="1" value="14" />
+      <pref id="4" name="bravery" key="3" value="1.2" />
+      <pref id="5" name="hostility " key="4" value="1.3" />
+      <pref id="6" name="aggression" key="5" value="2.0" />
+      <pref id="7" name="confidence" key="6" value="2.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="0.7" />
+      <pref id="9" name="device_ship_ratio" key="8" value="1.0" />
+      <pref id="10" name="device_defence_ratio" key="9" value="0.3" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 征服游牧 -->
+    <prefset id="32" name="faction_Aggressive">
+      <pref id="1" name="strategy_group" key="1" value="15" />
+      <pref id="4" name="bravery" key="3" value="1.5" />
+      <pref id="5" name="hostility " key="4" value="2.0" />
+      <pref id="6" name="aggression" key="5" value="2.0" />
+      <pref id="7" name="confidence" key="6" value="2.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="1.0" />
+      <pref id="9" name="device_ship_ratio" key="8" value="0.1" />
+      <pref id="10" name="device_defence_ratio" key="9" value="0.4" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 征服盎格鲁 -->
+    <prefset id="33" name="faction_Aggressive">
+      <pref id="1" name="strategy_group" key="1" value="14" />
+      <pref id="4" name="bravery" key="3" value="1.0" />
+      <pref id="5" name="hostility " key="4" value="3.0" />
+      <pref id="6" name="aggression" key="5" value="2.0" />
+      <pref id="7" name="confidence" key="6" value="1.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="0.7" />
+      <pref id="9" name="device_ship_ratio" key="8" value="1.0" />
+      <pref id="10" name="device_defence_ratio" key="9" value="0.3" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 征服侵略远征军 -->
+    <prefset id="34" name="faction_Aggressive">
+      <pref id="1" name="strategy_group" key="1" value="11" />
+      <pref id="4" name="bravery" key="3" value="1.0" />
+      <pref id="5" name="hostility " key="4" value="3.0" />
+      <pref id="6" name="aggression" key="5" value="2.0" />
+      <pref id="7" name="confidence" key="6" value="1.0" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="1.0" />
+      <pref id="9" name="device_ship_ratio" key="8" value="0.5" />
+      <pref id="10" name="device_defence_ratio" key="9" value="0.5" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="4" />
+    </prefset>
+    <!-- 玩家默认 -->
+    <prefset id="100" name="faction_player">
+      <pref id="1" name="strategy_group" key="1" value="1" />
+      <pref id="4" name="bravery" key="3" value="1.0" />
+      <pref id="5" name="hostility " key="4" value="1.0" />
+      <pref id="6" name="aggression" key="5" value="1.2" />
+      <pref id="7" name="confidence" key="6" value="1.2" />
+      <pref id="8" name="device_vehicle_ratio" key="7" value="1.0" />
+      <pref id="9" name="device_ship_ratio" key="8" value="1.0" />
+      <pref id="10" name="device_defence_ratio" key="9" value="1.0" />
+      <pref id="11" name="veteran_troop" key="10" value="1.0" />
+      <pref id="12" name="elite_troop" key="11" value="1.5" />
+      <pref id="13" name="max_pop" key="12" value="10" />
+      <pref id="14" name="pps_limit" key="14" value="3" />
+      <pref id="15" name="no_tp_cost" key="15" value="0" />
+    </prefset>
+
+    <!-- 军团性格 -->
+    <prefset id="300" name="unit_normal">
+      <pref id="1" name="boldness" key="200" value="1.0"/>
+      <pref id="2" name="focus" key="201" value="1.0"/>
+    </prefset>
+    <prefset id="310" name="unit_aggressive">
+      <pref id="1" name="boldness" key="200" value="2.0"/>
+      <pref id="2" name="focus" key="201" value="1.0"/>
+    </prefset>
+    <prefset id="320" name="unit_defensive">
+      <pref id="1" name="boldness" key="200" value="0.75"/>
+      <pref id="2" name="focus" key="201" value="1.0"/>
+    </prefset>
+  </prefsets>
+</domain>

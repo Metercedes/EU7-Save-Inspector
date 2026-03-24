@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <hierarchy>
+        <hitem type="root">
+            <hitem type="military">
+                <!-- 进攻 -->
+                <hitem type="offensive">
+                    <hitem type="offsensive_light_infantry" />
+                    <hitem type="offsensive_heavy_infantry" />
+                    <hitem type="offsensive_ranged_infantry" />
+                    <hitem type="offsensive_light_cavalry" />
+                    <hitem type="offsensive_heavy_cavalry" />
+                    <hitem type="offsensive_ranged_cavalry" />
+                </hitem>
+                <!-- 防守 -->
+                <hitem type="defensive">
+                    <hitem type="defensive_light_infantry" />
+                    <hitem type="defensive_heavy_infantry" />
+                    <hitem type="defensive_ranged_infantry" />
+                    <hitem type="defensive_light_cavalry" />
+                    <hitem type="defensive_heavy_cavalry" />
+                    <hitem type="defensive_ranged_cavalry" />
+                </hitem>
+            </hitem>
+            <!-- 经济 -->
+            <hitem type="economic">
+                <!-- 建设 -->
+                <hitem type="construction">
+                    <hitem type="production">
+                        <hitem type="prd_upgrade_city" />
+                        <hitem type="prd_upgrade_castle" />
+                        <hitem type="prd_upgrade_workshop" />
+                    </hitem>
+                    <hitem type="population">
+                        <hitem type="pop_upgrade_residence" />
+                        <hitem type="pop_upgrade_city" />
+                        <hitem type="pop_upgrade_castle" />
+                    </hitem>
+                    <hitem type="defense">
+                        <hitem type="def_upgrade_city_defense" />
+                        <hitem type="def_upgrade_castle" />
+                    </hitem>
+                </hitem>
+                <!-- 招募 -->
+                <hitem type="conscription">
+                    <hitem type="draft_light_infantry" />
+                    <hitem type="draft_heavy_infantry" />
+                    <hitem type="draft_ranged_infantry" />
+                    <hitem type="draft_light_cavalry" />
+                    <hitem type="draft_heavy_cavalry" />
+                    <hitem type="draft_ranged_cavalry" />
+                </hitem>
+                <!-- 政策 -->
+                <hitem type="policy">
+                    <hitem type="policy_battle" />
+                    <hitem type="policy_logistics" />
+                    <hitem type="policy_management" />
+                    <hitem type="policy_diplomacy" />
+                </hitem>
+            </hitem>
+            <!-- 外交 -->
+            <hitem type="diplomacy">
+                <hitem type="diplomacy_truce" />
+                <hitem type="diplomacy_access" />
+                <hitem type="diplomacy_alliance" />
+                <hitem type="diplomacy_blackmail" />
+            </hitem>
+        </hitem>
+    </hierarchy>
+    <strategies>
+      <!--default-->
+        <strategy id="101" name="default" type="root" value="1.0" group="1"/>
+        <strategy id="102" name="default" type="economic" value="0.8" group="1"/>
+        <strategy id="103" name="default" type="diplomacy" value="0.2" group="1"/>
+        <strategy id="104" name="default" type="construction" value="0.2" group="1"/>
+        <strategy id="105" name="default" type="conscription" value="0.7" group="1"/>
+        <strategy id="106" name="default" type="policy" value="0.1" group="1"/>
+        <strategy id="107" name="default" type="draft_light_infantry" value="1.0" group="1"/>
+        <strategy id="108" name="default" type="draft_heavy_infantry" value="1.0" group="1"/>
+        <strategy id="109" name="default" type="draft_ranged_infantry" value="1.0" group="1"/>
+        <strategy id="110" name="default" type="draft_light_cavalry" value="1.0" group="1"/>
+        <strategy id="111" name="default" type="draft_heavy_cavalry" value="1.0" group="1"/>
+        <strategy id="112" name="default" type="draft_ranged_cavalry" value="1.0" group="1"/>
+       <!--zero-->
+        <strategy id="201" name="zero" type="root" value="0.0" group="2"/>
+        <strategy id="202" name="zero" type="economic" value="0.0" group="2"/>
+        <strategy id="203" name="zero" type="diplomacy" value="0.0" group="2"/>
+        <strategy id="204" name="zero" type="construction" value="0.0" group="2"/>
+        <strategy id="205" name="zero" type="conscription" value="0.0" group="2"/>
+        <strategy id="206" name="zero" type="policy" value="0.0" group="2"/>
+      <!-- 征服资源平衡分配 -->
+        <strategy id="1101" name="资源总量" type="root" value="1.0" group="11"/>
+        <strategy id="1102" name="经济" type="economic" value="1.0" group="11"/>
+        <strategy id="1103" name="外交" type="diplomacy" value="0" group="11"/>
+        <strategy id="1104" name="建造" type="construction" value="0.3" group="11"/>
+        <strategy id="1105" name="招募" type="conscription" value="0.5" group="11"/>
+        <strategy id="1106" name="政策" type="policy" value="0.2" group="11"/>
+        <strategy id="1107" name="默认招募近战步兵" type="draft_light_infantry" value="0.6" group="11"/>
+        <strategy id="1108" name="默认招募抗线步兵" type="draft_heavy_infantry" value="0.6" group="11"/>
+        <strategy id="1109" name="默认招募远程步兵" type="draft_ranged_infantry" value="0.6" group="11"/>
+        <strategy id="1110" name="默认招募近战骑兵" type="draft_light_cavalry" value="0.4" group="11"/>
+        <strategy id="1111" name="默认招募冲击骑兵" type="draft_heavy_cavalry" value="0.4" group="11"/>
+        <strategy id="1112" name="默认招募远程骑兵" type="draft_ranged_cavalry" value="0.4" group="11"/>
+        <!-- 征服资源注重建造  -->
+        <strategy id="1201" name="资源总量" type="root" value="1.0" group="12"/>
+        <strategy id="1202" name="经济" type="economic" value="1.0" group="12"/>
+        <strategy id="1203" name="外交" type="diplomacy" value="0" group="12"/>
+        <strategy id="1204" name="建造" type="construction" value="0.5" group="12"/>
+        <strategy id="1205" name="招募" type="conscription" value="0.3" group="12"/>
+        <strategy id="1206" name="政策" type="policy" value="0.2" group="12"/>
+        <strategy id="1207" name="默认招募近战步兵" type="draft_light_infantry" value="0.6" group="12"/>
+        <strategy id="1208" name="默认招募抗线步兵" type="draft_heavy_infantry" value="0.6" group="12"/>
+        <strategy id="1209" name="默认招募远程步兵" type="draft_ranged_infantry" value="0.6" group="12"/>
+        <strategy id="1210" name="默认招募近战骑兵" type="draft_light_cavalry" value="0.4" group="12"/>
+        <strategy id="1211" name="默认招募冲击骑兵" type="draft_heavy_cavalry" value="0.4" group="12"/>
+        <strategy id="1212" name="默认招募远程骑兵" type="draft_ranged_cavalry" value="0.4" group="12"/>
+        <!-- 征服资源注重招募 -->
+        <strategy id="1301" name="资源总量" type="root" value="1.0" group="13"/>
+        <strategy id="1302" name="经济" type="economic" value="1.0" group="13"/>
+        <strategy id="1303" name="外交" type="diplomacy" value="0" group="13"/>
+        <strategy id="1304" name="建造" type="construction" value="0.1" group="13"/>
+        <strategy id="1305" name="招募" type="conscription" value="0.7" group="13"/>
+        <strategy id="1306" name="政策" type="policy" value="0.2" group="13"/>
+        <strategy id="1307" name="默认招募近战步兵" type="draft_light_infantry" value="0.6" group="13"/>
+        <strategy id="1308" name="默认招募抗线步兵" type="draft_heavy_infantry" value="0.6" group="13"/>
+        <strategy id="1309" name="默认招募远程步兵" type="draft_ranged_infantry" value="0.6" group="13"/>
+        <strategy id="1310" name="默认招募近战骑兵" type="draft_light_cavalry" value="0.4" group="13"/>
+        <strategy id="1311" name="默认招募冲击骑兵" type="draft_heavy_cavalry" value="0.4" group="13"/>
+        <strategy id="1312" name="默认招募远程骑兵" type="draft_ranged_cavalry" value="0.4" group="13"/>
+        <!-- 征服资源注重招募步兵 -->
+        <strategy id="1401" name="资源总量" type="root" value="1.0" group="14"/>
+        <strategy id="1402" name="经济" type="economic" value="1.0" group="14"/>
+        <strategy id="1403" name="外交" type="diplomacy" value="0" group="14"/>
+        <strategy id="1404" name="建造" type="construction" value="0.1" group="14"/>
+        <strategy id="1405" name="招募" type="conscription" value="0.7" group="14"/>
+        <strategy id="1406" name="政策" type="policy" value="0.2" group="14"/>
+        <strategy id="1407" name="招募近战步兵" type="draft_light_infantry" value="0.9" group="14"/>
+        <strategy id="1408" name="招募抗线步兵" type="draft_heavy_infantry" value="0.9" group="14"/>
+        <strategy id="1409" name="招募远程步兵" type="draft_ranged_infantry" value="0.9" group="14"/>
+        <strategy id="1410" name="招募近战骑兵" type="draft_light_cavalry" value="0.1" group="14"/>
+        <strategy id="1411" name="招募冲击骑兵" type="draft_heavy_cavalry" value="0.1" group="14"/>
+        <strategy id="1412" name="招募远程骑兵" type="draft_ranged_cavalry" value="0.1" group="14"/>
+        <!-- 征服资源注重招募骑兵 -->
+        <strategy id="1501" name="资源总量" type="root" value="1.0" group="15"/>
+        <strategy id="1502" name="经济" type="economic" value="1.0" group="15"/>
+        <strategy id="1503" name="外交" type="diplomacy" value="0" group="15"/>
+        <strategy id="1504" name="建造" type="construction" value="0.1" group="15"/>
+        <strategy id="1505" name="招募" type="conscription" value="0.7" group="15"/>
+        <strategy id="1506" name="政策" type="policy" value="0.2" group="15"/>
+        <strategy id="1507" name="招募近战步兵" type="draft_light_infantry" value="0.2" group="15"/>
+        <strategy id="1508" name="招募抗线步兵" type="draft_heavy_infantry" value="0.2" group="15"/>
+        <strategy id="1509" name="招募远程步兵" type="draft_ranged_infantry" value="0.2" group="15"/>
+        <strategy id="1510" name="招募近战骑兵" type="draft_light_cavalry" value="0.8" group="15"/>
+        <strategy id="1511" name="招募冲击骑兵" type="draft_heavy_cavalry" value="0.8" group="15"/>
+        <strategy id="1512" name="招募远程骑兵" type="draft_ranged_cavalry" value="0.8" group="15"/>
+        <!-- 极端注重建造和策略保守性格 -->
+        <strategy id="1601" name="资源总量" type="root" value="1.0" group="16"/>
+        <strategy id="1602" name="经济" type="economic" value="1.0" group="16"/>
+        <strategy id="1603" name="外交" type="diplomacy" value="0" group="16"/>
+        <strategy id="1604" name="建造" type="construction" value="0.5" group="16"/>
+        <strategy id="1605" name="招募" type="conscription" value="0.2" group="16"/>
+        <strategy id="1606" name="政策" type="policy" value="0.3" group="16"/>
+        <strategy id="1607" name="默认招募近战步兵" type="draft_light_infantry" value="0.6" group="16"/>
+        <strategy id="1608" name="默认招募抗线步兵" type="draft_heavy_infantry" value="0.6" group="16"/>
+        <strategy id="1609" name="默认招募远程步兵" type="draft_ranged_infantry" value="0.6" group="16"/>
+        <strategy id="1610" name="默认招募近战骑兵" type="draft_light_cavalry" value="0.4" group="16"/>
+        <strategy id="1611" name="默认招募冲击骑兵" type="draft_heavy_cavalry" value="0.4" group="16"/>
+        <strategy id="1612" name="默认招募远程骑兵" type="draft_ranged_cavalry" value="0.4" group="16"/>
+        <!-- 极端保守不造兵 -->
+        <strategy id="1701" name="资源总量" type="root" value="1.0" group="17"/>
+        <strategy id="1702" name="经济" type="economic" value="1.0" group="17"/>
+        <strategy id="1703" name="外交" type="diplomacy" value="0" group="17"/>
+        <strategy id="1704" name="建造" type="construction" value="0.7" group="17"/>
+        <strategy id="1705" name="招募" type="conscription" value="0.0" group="17"/>
+        <strategy id="1706" name="政策" type="policy" value="0.3" group="17"/>
+        <strategy id="1707" name="默认招募近战步兵" type="draft_light_infantry" value="0.6" group="17"/>
+        <strategy id="1708" name="默认招募抗线步兵" type="draft_heavy_infantry" value="0.6" group="17"/>
+        <strategy id="1709" name="默认招募远程步兵" type="draft_ranged_infantry" value="0.6" group="17"/>
+        <strategy id="1710" name="默认招募近战骑兵" type="draft_light_cavalry" value="0.4" group="17"/>
+        <strategy id="1711" name="默认招募冲击骑兵" type="draft_heavy_cavalry" value="0.4" group="17"/>
+        <strategy id="1712" name="默认招募远程骑兵" type="draft_ranged_cavalry" value="0.4" group="17"/>
+    </strategies>
+    
+</root>
